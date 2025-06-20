@@ -1,0 +1,52 @@
+******* DISCLAIMER: This testcase is an example, provided    ******
+******* "as is" without express or implied warranty and with ******
+******* no claim as to its suitability for any purpose.      ******
+******* This is for demonstration purpose only and may need  ******
+******* to be modified for use in a production environment.  ******
+*******     README file for CCSVerilogIn.oa.tar.gz testcase  ******
+*******          Date :May 2007                              ******
+*******               Version : 1.1                           ******
+*******               Author: ksanjeev                         ******
+
+Tested With
+===========
+IC Version Used: 6.1.1.64
+Platform: Sun
+OS: SunOS 5.8 
+
+Testcase Structure
+==================
+cds.lib -> File containing the library definitions
+Struc_Half_adder.v -> Structural Verilog Code of an Half Adder
+Verilog_In -> Library Created by Importing the Verilog Code into DFII
+verilogIn_template -> Template file to be loaded during import Verilog
+		      in GUI Mode.
+verilogIn_batch -> Library created by using the batch command 
+ihdl_command -> description of the batch command with the exact
+		command used in this testcase
+ihdl_files -> contains the VerilogIn options
+ihdl_parameter -> contains the parameter settings
+
+Procedure to be Followed
+=========================
+
+1) Click on File->Import->Verilog in CIW
+2) Select Struc_Half_adder.v and click on Files to Import
+3) Specify the library into which you want to import this verilog code
+   in the target library field
+4) There is a template file that can be loaded for this testcase
+   (verilogIn_template). 
+5) Once all the relevant fields are mentioned, click OK on the Import
+   Verilog Form.
+
+Procedure to import Verilog in Batch Mode
+=========================================
+
+1) The ihdl_command file contains the description of the batch way to
+   import Verilog
+2) Execute the command given in ihdl_command file under the section
+   "COMMAND"
+
+Dependencies
+============
+None

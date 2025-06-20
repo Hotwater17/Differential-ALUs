@@ -1,0 +1,7 @@
+ref_lib_list := basic, sample, tsmcN65, 65_DRD
+dest_sch_lib := DEST_LIB_SYMBOL
+structural_views := 1
+cont_assign_symbol := basic patch symbol 
+overwrite_symbol := 1
+power_net := vdd
+ground_net := vss

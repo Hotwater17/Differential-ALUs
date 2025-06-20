@@ -1,0 +1,1124 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -nworst 50
+        -max_paths 50
+Design : mac_bfloat16
+Version: U-2022.12-SP7-3
+Date   : Wed Mar 12 13:43:37 2025
+****************************************
+
+Operating Conditions: NCCOM   Library: tcbn65lptc
+Wire Load Model Mode: segmented
+
+  Startpoint: c[7] (input port)
+  Endpoint: status[2] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_bfloat16       ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  c[7] (in)                                0.00       0.00 f
+  U18/ZN (ND4D0)                           0.02       0.02 r
+  U20/ZN (NR2D0)                           0.03       0.05 f
+  U1131/ZN (ND3D0)                         0.03       0.09 r
+  U1133/ZN (ND2D0)                         0.03       0.12 f
+  status[2] (out)                          0.00       0.12 f
+  data arrival time                                   0.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[8] (input port)
+  Endpoint: status[2] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_bfloat16       ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  c[8] (in)                                0.00       0.00 f
+  U18/ZN (ND4D0)                           0.02       0.02 r
+  U20/ZN (NR2D0)                           0.03       0.05 f
+  U1131/ZN (ND3D0)                         0.03       0.09 r
+  U1133/ZN (ND2D0)                         0.03       0.12 f
+  status[2] (out)                          0.00       0.12 f
+  data arrival time                                   0.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[11] (input port)
+  Endpoint: status[2] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_bfloat16       ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  c[11] (in)                               0.00       0.00 f
+  U19/ZN (ND4D0)                           0.02       0.02 r
+  U20/ZN (NR2D0)                           0.03       0.05 f
+  U1131/ZN (ND3D0)                         0.03       0.09 r
+  U1133/ZN (ND2D0)                         0.03       0.12 f
+  status[2] (out)                          0.00       0.12 f
+  data arrival time                                   0.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[10] (input port)
+  Endpoint: status[2] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_bfloat16       ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  c[10] (in)                               0.00       0.00 f
+  U19/ZN (ND4D0)                           0.02       0.02 r
+  U20/ZN (NR2D0)                           0.03       0.05 f
+  U1131/ZN (ND3D0)                         0.03       0.09 r
+  U1133/ZN (ND2D0)                         0.03       0.12 f
+  status[2] (out)                          0.00       0.12 f
+  data arrival time                                   0.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[13] (input port)
+  Endpoint: status[2] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_bfloat16       ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  c[13] (in)                               0.00       0.00 f
+  U18/ZN (ND4D0)                           0.02       0.02 r
+  U20/ZN (NR2D0)                           0.03       0.05 f
+  U1131/ZN (ND3D0)                         0.03       0.09 r
+  U1133/ZN (ND2D0)                         0.03       0.12 f
+  status[2] (out)                          0.00       0.12 f
+  data arrival time                                   0.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[12] (input port)
+  Endpoint: status[2] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_bfloat16       ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  c[12] (in)                               0.00       0.00 f
+  U18/ZN (ND4D0)                           0.02       0.02 r
+  U20/ZN (NR2D0)                           0.03       0.06 f
+  U1131/ZN (ND3D0)                         0.03       0.09 r
+  U1133/ZN (ND2D0)                         0.03       0.12 f
+  status[2] (out)                          0.00       0.12 f
+  data arrival time                                   0.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[9] (input port)
+  Endpoint: status[2] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_bfloat16       ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  c[9] (in)                                0.00       0.00 f
+  U19/ZN (ND4D0)                           0.02       0.02 r
+  U20/ZN (NR2D0)                           0.03       0.06 f
+  U1131/ZN (ND3D0)                         0.03       0.09 r
+  U1133/ZN (ND2D0)                         0.03       0.12 f
+  status[2] (out)                          0.00       0.12 f
+  data arrival time                                   0.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[14] (input port)
+  Endpoint: status[2] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_bfloat16       ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  c[14] (in)                               0.00       0.00 f
+  U19/ZN (ND4D0)                           0.02       0.02 r
+  U20/ZN (NR2D0)                           0.03       0.06 f
+  U1131/ZN (ND3D0)                         0.03       0.09 r
+  U1133/ZN (ND2D0)                         0.03       0.12 f
+  status[2] (out)                          0.00       0.12 f
+  data arrival time                                   0.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[15] (input port)
+  Endpoint: o[15] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_bfloat16       ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[15] (in)                               0.00       0.00 r
+  U1167/ZN (AOI22D0)                       0.03       0.03 f
+  U1170/ZN (OAI22D0)                       0.05       0.08 r
+  U1171/Z (AO21D0)                         0.05       0.14 r
+  o[15] (out)                              0.00       0.14 r
+  data arrival time                                   0.14
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[15] (input port)
+  Endpoint: o[15] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_bfloat16       ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[15] (in)                               0.00       0.00 r
+  U1167/ZN (AOI22D0)                       0.03       0.03 f
+  U1170/ZN (OAI22D0)                       0.05       0.08 r
+  U1171/Z (AO21D0)                         0.05       0.14 r
+  o[15] (out)                              0.00       0.14 r
+  data arrival time                                   0.14
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[15] (input port)
+  Endpoint: o[15] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_bfloat16       ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[15] (in)                               0.00       0.00 r
+  U1167/ZN (AOI22D0)                       0.03       0.03 f
+  U1170/ZN (OAI22D0)                       0.05       0.08 r
+  U1171/Z (AO21D0)                         0.05       0.14 r
+  o[15] (out)                              0.00       0.14 r
+  data arrival time                                   0.14
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[15] (input port)
+  Endpoint: o[15] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_bfloat16       ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[15] (in)                               0.00       0.00 r
+  U1167/ZN (AOI22D0)                       0.03       0.03 f
+  U1170/ZN (OAI22D0)                       0.05       0.09 r
+  U1171/Z (AO21D0)                         0.05       0.14 r
+  o[15] (out)                              0.00       0.14 r
+  data arrival time                                   0.14
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[15] (input port)
+  Endpoint: o[15] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_bfloat16       ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[15] (in)                               0.00       0.00 r
+  U1167/ZN (AOI22D0)                       0.03       0.03 f
+  U1170/ZN (OAI22D0)                       0.05       0.09 r
+  U1171/Z (AO21D0)                         0.05       0.14 r
+  o[15] (out)                              0.00       0.14 r
+  data arrival time                                   0.14
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[15] (input port)
+  Endpoint: o[15] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_bfloat16       ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[15] (in)                               0.00       0.00 r
+  U1167/ZN (AOI22D0)                       0.03       0.03 f
+  U1170/ZN (OAI22D0)                       0.05       0.09 r
+  U1171/Z (AO21D0)                         0.05       0.14 r
+  o[15] (out)                              0.00       0.14 r
+  data arrival time                                   0.14
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[15] (input port)
+  Endpoint: o[15] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_bfloat16       ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[15] (in)                               0.00       0.00 r
+  U1167/ZN (AOI22D0)                       0.03       0.03 f
+  U1170/ZN (OAI22D0)                       0.05       0.08 r
+  U1171/Z (AO21D0)                         0.05       0.14 r
+  o[15] (out)                              0.00       0.14 r
+  data arrival time                                   0.14
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[15] (input port)
+  Endpoint: o[15] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_bfloat16       ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[15] (in)                               0.00       0.00 r
+  U1167/ZN (AOI22D0)                       0.03       0.03 f
+  U1170/ZN (OAI22D0)                       0.05       0.08 r
+  U1171/Z (AO21D0)                         0.05       0.14 r
+  o[15] (out)                              0.00       0.14 r
+  data arrival time                                   0.14
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[15] (input port)
+  Endpoint: o[15] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_bfloat16       ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[15] (in)                               0.00       0.00 r
+  U1167/ZN (AOI22D0)                       0.03       0.03 f
+  U1170/ZN (OAI22D0)                       0.05       0.08 r
+  U1171/Z (AO21D0)                         0.05       0.14 r
+  o[15] (out)                              0.00       0.14 r
+  data arrival time                                   0.14
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[15] (input port)
+  Endpoint: o[15] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_bfloat16       ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[15] (in)                               0.00       0.00 r
+  U1167/ZN (AOI22D0)                       0.03       0.03 f
+  U1170/ZN (OAI22D0)                       0.05       0.09 r
+  U1171/Z (AO21D0)                         0.05       0.14 r
+  o[15] (out)                              0.00       0.14 r
+  data arrival time                                   0.14
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[15] (input port)
+  Endpoint: o[15] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_bfloat16       ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[15] (in)                               0.00       0.00 r
+  U1167/ZN (AOI22D0)                       0.03       0.03 f
+  U1170/ZN (OAI22D0)                       0.05       0.09 r
+  U1171/Z (AO21D0)                         0.05       0.14 r
+  o[15] (out)                              0.00       0.14 r
+  data arrival time                                   0.14
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[15] (input port)
+  Endpoint: o[15] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_bfloat16       ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[15] (in)                               0.00       0.00 r
+  U1167/ZN (AOI22D0)                       0.03       0.03 f
+  U1170/ZN (OAI22D0)                       0.05       0.08 r
+  U1171/Z (AO21D0)                         0.05       0.14 r
+  o[15] (out)                              0.00       0.14 r
+  data arrival time                                   0.14
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[15] (input port)
+  Endpoint: o[15] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_bfloat16       ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[15] (in)                               0.00       0.00 r
+  U1167/ZN (AOI22D0)                       0.03       0.03 f
+  U1170/ZN (OAI22D0)                       0.05       0.09 r
+  U1171/Z (AO21D0)                         0.05       0.14 r
+  o[15] (out)                              0.00       0.14 r
+  data arrival time                                   0.14
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[15] (input port)
+  Endpoint: o[15] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_bfloat16       ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[15] (in)                               0.00       0.00 r
+  U1167/ZN (AOI22D0)                       0.03       0.03 f
+  U1170/ZN (OAI22D0)                       0.05       0.08 r
+  U1171/Z (AO21D0)                         0.05       0.14 r
+  o[15] (out)                              0.00       0.14 r
+  data arrival time                                   0.14
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[15] (input port)
+  Endpoint: o[15] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_bfloat16       ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[15] (in)                               0.00       0.00 r
+  U1167/ZN (AOI22D0)                       0.03       0.03 f
+  U1170/ZN (OAI22D0)                       0.05       0.08 r
+  U1171/Z (AO21D0)                         0.05       0.14 r
+  o[15] (out)                              0.00       0.14 r
+  data arrival time                                   0.14
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[15] (input port)
+  Endpoint: o[15] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_bfloat16       ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[15] (in)                               0.00       0.00 r
+  U1167/ZN (AOI22D0)                       0.04       0.04 f
+  U1170/ZN (OAI22D0)                       0.05       0.09 r
+  U1171/Z (AO21D0)                         0.05       0.14 r
+  o[15] (out)                              0.00       0.14 r
+  data arrival time                                   0.14
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[15] (input port)
+  Endpoint: o[15] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_bfloat16       ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[15] (in)                               0.00       0.00 r
+  U1167/ZN (AOI22D0)                       0.03       0.03 f
+  U1170/ZN (OAI22D0)                       0.05       0.09 r
+  U1171/Z (AO21D0)                         0.05       0.14 r
+  o[15] (out)                              0.00       0.14 r
+  data arrival time                                   0.14
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[15] (input port)
+  Endpoint: o[15] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_bfloat16       ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[15] (in)                               0.00       0.00 r
+  U1167/ZN (AOI22D0)                       0.03       0.03 f
+  U1170/ZN (OAI22D0)                       0.05       0.09 r
+  U1171/Z (AO21D0)                         0.05       0.14 r
+  o[15] (out)                              0.00       0.14 r
+  data arrival time                                   0.14
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[15] (input port)
+  Endpoint: o[15] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_bfloat16       ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[15] (in)                               0.00       0.00 r
+  U1167/ZN (AOI22D0)                       0.04       0.04 f
+  U1170/ZN (OAI22D0)                       0.05       0.09 r
+  U1171/Z (AO21D0)                         0.05       0.14 r
+  o[15] (out)                              0.00       0.14 r
+  data arrival time                                   0.14
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[15] (input port)
+  Endpoint: o[15] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_bfloat16       ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[15] (in)                               0.00       0.00 r
+  U1167/ZN (AOI22D0)                       0.03       0.03 f
+  U1170/ZN (OAI22D0)                       0.05       0.09 r
+  U1171/Z (AO21D0)                         0.05       0.14 r
+  o[15] (out)                              0.00       0.14 r
+  data arrival time                                   0.14
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[15] (input port)
+  Endpoint: o[15] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_bfloat16       ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[15] (in)                               0.00       0.00 r
+  U1167/ZN (AOI22D0)                       0.04       0.04 f
+  U1170/ZN (OAI22D0)                       0.05       0.09 r
+  U1171/Z (AO21D0)                         0.05       0.14 r
+  o[15] (out)                              0.00       0.14 r
+  data arrival time                                   0.14
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[15] (input port)
+  Endpoint: o[15] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_bfloat16       ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  c[15] (in)                               0.00       0.00 f
+  U1167/ZN (AOI22D0)                       0.04       0.04 r
+  U1170/ZN (OAI22D0)                       0.03       0.08 f
+  U1171/Z (AO21D0)                         0.06       0.14 f
+  o[15] (out)                              0.00       0.14 f
+  data arrival time                                   0.14
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[15] (input port)
+  Endpoint: o[15] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_bfloat16       ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[15] (in)                               0.00       0.00 r
+  U1167/ZN (AOI22D0)                       0.04       0.04 f
+  U1170/ZN (OAI22D0)                       0.05       0.09 r
+  U1171/Z (AO21D0)                         0.05       0.14 r
+  o[15] (out)                              0.00       0.14 r
+  data arrival time                                   0.14
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[15] (input port)
+  Endpoint: o[15] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_bfloat16       ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[15] (in)                               0.00       0.00 r
+  U1167/ZN (AOI22D0)                       0.04       0.04 f
+  U1170/ZN (OAI22D0)                       0.05       0.09 r
+  U1171/Z (AO21D0)                         0.05       0.14 r
+  o[15] (out)                              0.00       0.14 r
+  data arrival time                                   0.14
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[15] (input port)
+  Endpoint: o[15] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_bfloat16       ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[15] (in)                               0.00       0.00 r
+  U1167/ZN (AOI22D0)                       0.04       0.04 f
+  U1170/ZN (OAI22D0)                       0.05       0.09 r
+  U1171/Z (AO21D0)                         0.05       0.14 r
+  o[15] (out)                              0.00       0.14 r
+  data arrival time                                   0.14
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[15] (input port)
+  Endpoint: o[15] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_bfloat16       ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[15] (in)                               0.00       0.00 r
+  U1167/ZN (AOI22D0)                       0.04       0.04 f
+  U1170/ZN (OAI22D0)                       0.05       0.09 r
+  U1171/Z (AO21D0)                         0.05       0.14 r
+  o[15] (out)                              0.00       0.14 r
+  data arrival time                                   0.14
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[15] (input port)
+  Endpoint: o[15] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_bfloat16       ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[15] (in)                               0.00       0.00 r
+  U1167/ZN (AOI22D0)                       0.04       0.04 f
+  U1170/ZN (OAI22D0)                       0.05       0.09 r
+  U1171/Z (AO21D0)                         0.05       0.14 r
+  o[15] (out)                              0.00       0.14 r
+  data arrival time                                   0.14
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[15] (input port)
+  Endpoint: o[15] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_bfloat16       ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[15] (in)                               0.00       0.00 r
+  U1167/ZN (AOI22D0)                       0.04       0.04 f
+  U1170/ZN (OAI22D0)                       0.05       0.09 r
+  U1171/Z (AO21D0)                         0.05       0.14 r
+  o[15] (out)                              0.00       0.14 r
+  data arrival time                                   0.14
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[15] (input port)
+  Endpoint: o[15] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_bfloat16       ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  c[15] (in)                               0.00       0.00 f
+  U1167/ZN (AOI22D0)                       0.04       0.04 r
+  U1170/ZN (OAI22D0)                       0.04       0.08 f
+  U1171/Z (AO21D0)                         0.06       0.14 f
+  o[15] (out)                              0.00       0.14 f
+  data arrival time                                   0.14
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[15] (input port)
+  Endpoint: o[15] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_bfloat16       ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  c[15] (in)                               0.00       0.00 f
+  U1169/ZN (AOI22D0)                       0.04       0.04 r
+  U1170/ZN (OAI22D0)                       0.04       0.08 f
+  U1171/Z (AO21D0)                         0.06       0.15 f
+  o[15] (out)                              0.00       0.15 f
+  data arrival time                                   0.15
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[15] (input port)
+  Endpoint: o[15] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_bfloat16       ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  c[15] (in)                               0.00       0.00 f
+  U1167/ZN (AOI22D0)                       0.04       0.04 r
+  U1170/ZN (OAI22D0)                       0.03       0.08 f
+  U1171/Z (AO21D0)                         0.07       0.15 f
+  o[15] (out)                              0.00       0.15 f
+  data arrival time                                   0.15
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[15] (input port)
+  Endpoint: o[15] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_bfloat16       ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  c[15] (in)                               0.00       0.00 f
+  U1167/ZN (AOI22D0)                       0.05       0.05 r
+  U1170/ZN (OAI22D0)                       0.03       0.08 f
+  U1171/Z (AO21D0)                         0.06       0.15 f
+  o[15] (out)                              0.00       0.15 f
+  data arrival time                                   0.15
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[15] (input port)
+  Endpoint: o[15] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_bfloat16       ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  c[15] (in)                               0.00       0.00 f
+  U1167/ZN (AOI22D0)                       0.04       0.04 r
+  U1170/ZN (OAI22D0)                       0.04       0.08 f
+  U1171/Z (AO21D0)                         0.06       0.15 f
+  o[15] (out)                              0.00       0.15 f
+  data arrival time                                   0.15
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[15] (input port)
+  Endpoint: o[15] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_bfloat16       ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[15] (in)                               0.00       0.00 r
+  U1169/ZN (AOI22D0)                       0.03       0.03 f
+  U1170/ZN (OAI22D0)                       0.07       0.10 r
+  U1171/Z (AO21D0)                         0.05       0.15 r
+  o[15] (out)                              0.00       0.15 r
+  data arrival time                                   0.15
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[15] (input port)
+  Endpoint: o[15] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_bfloat16       ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[15] (in)                               0.00       0.00 r
+  U1169/ZN (AOI22D0)                       0.03       0.03 f
+  U1170/ZN (OAI22D0)                       0.07       0.10 r
+  U1171/Z (AO21D0)                         0.05       0.15 r
+  o[15] (out)                              0.00       0.15 r
+  data arrival time                                   0.15
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[15] (input port)
+  Endpoint: o[15] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_bfloat16       ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[15] (in)                               0.00       0.00 r
+  U1169/ZN (AOI22D0)                       0.03       0.03 f
+  U1170/ZN (OAI22D0)                       0.07       0.10 r
+  U1171/Z (AO21D0)                         0.05       0.15 r
+  o[15] (out)                              0.00       0.15 r
+  data arrival time                                   0.15
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[15] (input port)
+  Endpoint: o[15] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_bfloat16       ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[15] (in)                               0.00       0.00 r
+  U1169/ZN (AOI22D0)                       0.03       0.03 f
+  U1170/ZN (OAI22D0)                       0.07       0.10 r
+  U1171/Z (AO21D0)                         0.05       0.15 r
+  o[15] (out)                              0.00       0.15 r
+  data arrival time                                   0.15
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[15] (input port)
+  Endpoint: o[15] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_bfloat16       ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[15] (in)                               0.00       0.00 r
+  U1169/ZN (AOI22D0)                       0.03       0.03 f
+  U1170/ZN (OAI22D0)                       0.07       0.10 r
+  U1171/Z (AO21D0)                         0.05       0.15 r
+  o[15] (out)                              0.00       0.15 r
+  data arrival time                                   0.15
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[15] (input port)
+  Endpoint: o[15] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_bfloat16       ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[15] (in)                               0.00       0.00 r
+  U1169/ZN (AOI22D0)                       0.03       0.03 f
+  U1170/ZN (OAI22D0)                       0.07       0.10 r
+  U1171/Z (AO21D0)                         0.05       0.15 r
+  o[15] (out)                              0.00       0.15 r
+  data arrival time                                   0.15
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[15] (input port)
+  Endpoint: o[15] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_bfloat16       ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[15] (in)                               0.00       0.00 r
+  U1169/ZN (AOI22D0)                       0.03       0.03 f
+  U1170/ZN (OAI22D0)                       0.07       0.10 r
+  U1171/Z (AO21D0)                         0.05       0.15 r
+  o[15] (out)                              0.00       0.15 r
+  data arrival time                                   0.15
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[15] (input port)
+  Endpoint: o[15] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_bfloat16       ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[15] (in)                               0.00       0.00 r
+  U1169/ZN (AOI22D0)                       0.03       0.03 f
+  U1170/ZN (OAI22D0)                       0.07       0.10 r
+  U1171/Z (AO21D0)                         0.05       0.15 r
+  o[15] (out)                              0.00       0.15 r
+  data arrival time                                   0.15
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[15] (input port)
+  Endpoint: o[15] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_bfloat16       ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[15] (in)                               0.00       0.00 r
+  U1169/ZN (AOI22D0)                       0.03       0.03 f
+  U1170/ZN (OAI22D0)                       0.07       0.10 r
+  U1171/Z (AO21D0)                         0.05       0.15 r
+  o[15] (out)                              0.00       0.15 r
+  data arrival time                                   0.15
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

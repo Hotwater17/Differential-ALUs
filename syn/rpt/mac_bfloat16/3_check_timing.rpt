@@ -1,0 +1,218 @@
+Information: Checking out the license 'DesignWare'. (SEC-104)
+  Allocating blocks in 'DW_fp_mac_sig_width7_exp_width8_ieee_compliance0'
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'pparch' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'apparch' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'pparch' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'apparch' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'astr' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'astr' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'pparch' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'apparch' from '(none)' to 'ZeroWireload'. (OPT-170)
+  Allocating blocks in 'DW_fp_ifp_conv_sig_widthi7_exp_widthi8_sig_widtho9_exp_widtho8_use_denormal0_use_1scmpl0'
+  Allocating blocks in 'DW_ifp_mult_sig_widthi9_exp_widthi8_sig_widtho15_exp_widtho9'
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'pparch' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'apparch' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'apparch' from '(none)' to 'ZeroWireload'. (OPT-170)
+  Allocating blocks in 'DW_ifp_addsub_sig_widthi15_exp_widthi9_sig_widtho16_exp_widtho10_use_denormal0_use_1scmpl0'
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'astr' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'astr' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'astr' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'astr' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'apparch' from '(none)' to 'ZeroWireload'. (OPT-170)
+  Allocating blocks in 'DW_ifp_fp_conv_sig_widthi16_exp_widthi10_sig_width7_exp_width8_use_denormal0'
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'astr' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'pparch' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'apparch' from '(none)' to 'ZeroWireload'. (OPT-170)
+  Allocating blocks in 'DW_lzd_a_width17'
+  Allocating blocks in 'DW_lzod_a_width17_detect_10'
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'apparch' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'apparch' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'astr' from '(none)' to 'ZeroWireload'. (OPT-170)
+  Allocating blocks in 'DW_lzd_a_width20'
+  Allocating blocks in 'DW_lzod_a_width20_detect_10'
+  Allocating blocks in 'DW01_ash_A_width22_SH_width10'
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'astr' from '(none)' to 'ZeroWireload'. (OPT-170)
+Warning: Dont_touch on net '*cell*70/M_2scompl[0]' may be overridden by compile because it
+	is connected to generic logic. Use all_connected to see net
+	connections. (OPT-461)
+Warning: Dont_touch on net '*cell*70/M_2scompl[1]' may be overridden by compile because it
+	is connected to generic logic. Use all_connected to see net
+	connections. (OPT-461)
+Warning: Dont_touch on net '*cell*70/M_2scompl[2]' may be overridden by compile because it
+	is connected to generic logic. Use all_connected to see net
+	connections. (OPT-461)
+Warning: Dont_touch on net '*cell*70/M_2scompl[3]' may be overridden by compile because it
+	is connected to generic logic. Use all_connected to see net
+	connections. (OPT-461)
+Warning: Dont_touch on net '*cell*70/M_2scompl[4]' may be overridden by compile because it
+	is connected to generic logic. Use all_connected to see net
+	connections. (OPT-461)
+Warning: Dont_touch on net '*cell*70/M_2scompl[5]' may be overridden by compile because it
+	is connected to generic logic. Use all_connected to see net
+	connections. (OPT-461)
+Warning: Dont_touch on net '*cell*70/M_2scompl[6]' may be overridden by compile because it
+	is connected to generic logic. Use all_connected to see net
+	connections. (OPT-461)
+Warning: Dont_touch on net '*cell*70/M_2scompl[7]' may be overridden by compile because it
+	is connected to generic logic. Use all_connected to see net
+	connections. (OPT-461)
+Warning: Dont_touch on net '*cell*70/M_2scompl[8]' may be overridden by compile because it
+	is connected to generic logic. Use all_connected to see net
+	connections. (OPT-461)
+Warning: Dont_touch on net '*cell*70/a[0]' may be overridden by compile because it
+	is connected to generic logic. Use all_connected to see net
+	connections. (OPT-461)
+Warning: Dont_touch on net '*cell*70/a[1]' may be overridden by compile because it
+	is connected to generic logic. Use all_connected to see net
+	connections. (OPT-461)
+Warning: Dont_touch on net '*cell*70/a[2]' may be overridden by compile because it
+	is connected to generic logic. Use all_connected to see net
+	connections. (OPT-461)
+Warning: Dont_touch on net '*cell*70/a[3]' may be overridden by compile because it
+	is connected to generic logic. Use all_connected to see net
+	connections. (OPT-461)
+Warning: Dont_touch on net '*cell*70/a[4]' may be overridden by compile because it
+	is connected to generic logic. Use all_connected to see net
+	connections. (OPT-461)
+Warning: Dont_touch on net '*cell*70/a[5]' may be overridden by compile because it
+	is connected to generic logic. Use all_connected to see net
+	connections. (OPT-461)
+Warning: Dont_touch on net '*cell*70/a[6]' may be overridden by compile because it
+	is connected to generic logic. Use all_connected to see net
+	connections. (OPT-461)
+Warning: Dont_touch on net '*cell*70/*Logic0*' may be overridden by compile because it
+	is connected to generic logic. Use all_connected to see net
+	connections. (OPT-461)
+Warning: Dont_touch on net '*cell*82/N78' may be overridden by compile because it
+	is connected to generic logic. Use all_connected to see net
+	connections. (OPT-461)
+Warning: Dont_touch on net '*cell*82/N77' may be overridden by compile because it
+	is connected to generic logic. Use all_connected to see net
+	connections. (OPT-461)
+Warning: Dont_touch on net '*cell*82/N76' may be overridden by compile because it
+	is connected to generic logic. Use all_connected to see net
+	connections. (OPT-461)
+Warning: Dont_touch on net '*cell*82/N75' may be overridden by compile because it
+	is connected to generic logic. Use all_connected to see net
+	connections. (OPT-461)
+Warning: Dont_touch on net '*cell*82/N74' may be overridden by compile because it
+	is connected to generic logic. Use all_connected to see net
+	connections. (OPT-461)
+Warning: Dont_touch on net '*cell*82/N73' may be overridden by compile because it
+	is connected to generic logic. Use all_connected to see net
+	connections. (OPT-461)
+Warning: Dont_touch on net '*cell*82/N72' may be overridden by compile because it
+	is connected to generic logic. Use all_connected to see net
+	connections. (OPT-461)
+Warning: Dont_touch on net '*cell*82/N71' may be overridden by compile because it
+	is connected to generic logic. Use all_connected to see net
+	connections. (OPT-461)
+Warning: Dont_touch on net '*cell*82/N70' may be overridden by compile because it
+	is connected to generic logic. Use all_connected to see net
+	connections. (OPT-461)
+Warning: Dont_touch on net '*cell*82/*Logic0*' may be overridden by compile because it
+	is connected to generic logic. Use all_connected to see net
+	connections. (OPT-461)
+Warning: Dont_touch on net '*cell*84/*Logic0*' may be overridden by compile because it
+	is connected to generic logic. Use all_connected to see net
+	connections. (OPT-461)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'apparch' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'apparch' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'apparch' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'astr' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'apparch' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'apparch' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'apparch' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'astr' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'apparch' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'apparch' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'apparch' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'astr' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'astr' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'apparch' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'apparch' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'apparch' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'DW_fp_mac_sig_width7_exp_width8_ieee_compliance0' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'DW_fp_mac_param_1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Updating design information... (UID-85)
+
+Information: Checking generated_clocks...
+
+Information: Checking loops...
+
+Information: Checking no_input_delay...
+
+Information: Checking unconstrained_endpoints...
+
+Warning: The following end-points are not constrained for maximum delay.
+
+End point
+---------------
+o[0]
+o[1]
+o[2]
+o[3]
+o[4]
+o[5]
+o[6]
+o[7]
+o[8]
+o[9]
+o[10]
+o[11]
+o[12]
+o[13]
+o[14]
+o[15]
+status[0]
+status[1]
+status[2]
+status[3]
+status[4]
+status[5]
+
+Information: Checking pulse_clock_cell_type...
+
+Information: Checking no_driving_cell...
+
+Information: Checking partial_input_delay...
+1

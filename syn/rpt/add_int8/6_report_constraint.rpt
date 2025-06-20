@@ -1,0 +1,20 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : constraint
+        -all_violators
+Design : add_int8
+Version: U-2022.12-SP7-3
+Date   : Wed Mar 12 13:42:32 2025
+****************************************
+
+
+   max_leakage_power
+
+                             Required        Actual
+   Design                   Leakage Power  Leakage Power     Slack
+   -----------------------------------------------------------------
+   add_int8                     0.00           4.63          -4.63  (VIOLATED)
+
+
+1

@@ -1,0 +1,4 @@
+-param temp_param
+-v VERILOG_IN_SYMBOL
+-y DEST_LIB_SYMBOL
+

@@ -1,0 +1,58 @@
+Information: Checking out the license 'DesignWare'. (SEC-104)
+  Allocating blocks in 'DW_fp_add_sig_width7_exp_width8_ieee_compliance0'
+  Allocating blocks in 'DW_fp_addsub_sig_width7_exp_width8_ieee_compliance0'
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'pparch' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'apparch' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'astr' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'astr' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'astr' from '(none)' to 'ZeroWireload'. (OPT-170)
+  Allocating blocks in 'DW_lzd_a_width11'
+  Allocating blocks in 'DW_lzod_a_width11_detect_10'
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'astr' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'astr' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'astr' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'apparch' from '(none)' to 'ZeroWireload'. (OPT-170)
+Warning: Dont_touch on net '*cell*6/*Logic0*' may be overridden by compile because it
+	is connected to generic logic. Use all_connected to see net
+	connections. (OPT-461)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'apparch' from '(none)' to 'ZeroWireload'. (OPT-170)
+  Allocating blocks in 'DW_fp_addsub_sig_width7_exp_width8_ieee_compliance0'
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'astr' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'astr' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'astr' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'apparch' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'apparch' from '(none)' to 'ZeroWireload'. (OPT-170)
+  Allocating blocks in 'DW_lzd_a_width11'
+Information: Changed wire load model for 'DW_fp_add_sig_width7_exp_width8_ieee_compliance0' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'DW_fp_add_param_1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Updating design information... (UID-85)
+
+Information: Checking generated_clocks...
+
+Information: Checking loops...
+
+Information: Checking no_input_delay...
+
+Information: Checking unconstrained_endpoints...
+
+Information: Checking pulse_clock_cell_type...
+
+Information: Checking no_driving_cell...
+
+Information: Checking partial_input_delay...
+1

@@ -1,0 +1,20 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : constraint
+        -all_violators
+Design : mac_bfloat16
+Version: U-2022.12-SP7-3
+Date   : Wed Mar 12 13:43:36 2025
+****************************************
+
+
+   max_leakage_power
+
+                             Required        Actual
+   Design                   Leakage Power  Leakage Power     Slack
+   -----------------------------------------------------------------
+   mac_bfloat16                 0.00         107.38        -107.38  (VIOLATED)
+
+
+1

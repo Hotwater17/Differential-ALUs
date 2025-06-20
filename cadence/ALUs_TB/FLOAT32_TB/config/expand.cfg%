@@ -1,0 +1,17 @@
+//Revision 2
+//NOTE
+// Default config view template for AMS netlister(s) in ADE.
+// Note:
+//      Please remember to replace Top Cell Library, Cell, and View
+//      fields with the actual names used by your design.
+//END_NOTE
+
+config BFLOAT16_TB;
+design ALUs_TB.BFLOAT16_TB:schematic;
+liblist myLib, CMOS_add_bfloat16, CMOS_add_float32, CMOS_add_int8, CMOS_mac_bfloat16, CMOS_mac_float32, CMOS_mac_int8, CMOS_mul_bfloat16, CMOS_mul_float32, CMOS_mul_int8, DIFF_add_bfloat16, DIFF_add_float32, DIFF_add_int8, DIFF_mac_bfloat16, DIFF_mac_float32, DIFF_mac_int8, DIFF_mul_bfloat16, DIFF_mul_float32, DIFF_mul_int8, \65_DRD , tsmcN65, tcbn65lp, vect_test;
+
+viewlist spectre, spice, pspice, verilog, verilogams, behavioral, functional, systemVerilog, schematic, veriloga, vhdl, vhdlams, wreal;
+stoplist spectre;
+
+
+endconfig

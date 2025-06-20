@@ -1,0 +1,3 @@
+-param ihdl_parameter
+-v Struc_Half_adder.v
+-y ./verilogIn_batch

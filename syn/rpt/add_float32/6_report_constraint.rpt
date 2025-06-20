@@ -1,0 +1,28 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : constraint
+        -all_violators
+Design : add_float32
+Version: U-2022.12-SP7-3
+Date   : Thu Apr 10 19:45:51 2025
+****************************************
+
+
+   max_area
+
+                             Required        Actual
+   Design                      Area           Area           Slack
+   -----------------------------------------------------------------
+   add_float32                  0.00        2329.20       -2329.20  (VIOLATED)
+
+
+   max_leakage_power
+
+                             Required        Actual
+   Design                   Leakage Power  Leakage Power     Slack
+   -----------------------------------------------------------------
+   add_float32                  0.00          72.12         -72.12  (VIOLATED)
+
+
+1

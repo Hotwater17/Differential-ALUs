@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : mul_int8
+Version: U-2022.12-SP7-3
+Date   : Wed Mar 12 13:44:34 2025
+****************************************
+
+Library(s) Used:
+
+    tcbn65lptc (File: /technology/TSMC_65nm_MS_RF_LP_1.2_2.5V_full/STD/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn65lp_220a/tcbn65lptc.db)
+
+Number of ports:                           24
+Number of nets:                           127
+Number of cells:                           97
+Number of combinational cells:             97
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                         21
+Number of references:                       9
+
+Combinational area:                283.680005
+Buf/Inv area:                       22.680001
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                   283.680005
+Total area:                 undefined
+1

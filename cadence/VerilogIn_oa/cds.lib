@@ -1,0 +1,7 @@
+define basic $CDSHOME/tools/dfII/etc/cdslib/basic
+define analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+define sample $CDSHOME/tools/dfII/samples/cdslib/sample
+define US_8ths $CDSHOME/tools/dfII/etc/cdslib/sheets/US_8ths
+DEFINE Verilog_In ./Verilog_In
+DEFINE cdsDefTechLib $CDSHOME/tools/dfII/etc/cdsDefTechLib
+DEFINE verilogIn_batch ./verilogIn_batch

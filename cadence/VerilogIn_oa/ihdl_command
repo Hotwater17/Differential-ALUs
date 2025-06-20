@@ -1,0 +1,18 @@
+ihdl -f ihdl_files verilog_design_file
+
+where
+
+ihdl is the executable name for Verilog In
+
+-f directs the executable to read command arguments from an option
+file
+
+ihdl_files is a file that contains the Verilog In options including
+the -param option. The -param option references the ihdl_parameter
+file, which contains the parameter settings. 
+
+verilog_design_file is the Verilog file you want to import.
+
+COMMAND
+========
+prompt%ihdl -f ihdl_files Struc_Half_adder.v

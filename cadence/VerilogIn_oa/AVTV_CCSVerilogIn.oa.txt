@@ -1,0 +1,63 @@
+Assessment
+----------
+The testcase in CDBA for VerilogIn, the design data is a verilog netlist (Text file)
+
+The netlist does not requires translation
+
+Testcase used sample and basic library from cadence hierarchy this does not need translation
+
+
+Validation
+----------
+After translation of verilog netlist file the functional view is generated having this content on IC5141USR4
+
+
+***********
+// Created by ihdl
+module halfadd (X, Y, C, S );
+input X, Y; 
+output C, S; 
+wire S1, S2, S3; 
+nand NANDA (S3, X, Y); 
+nand NANDB (S1, X, S3); 
+nand NANDC (S2, S3, Y); 
+nand NANDD (S, S1, S2); 
+assign C = S3; 
+ 
+endmodule
+
+****************
+
+The functional view created in IC611 will be verified in the verification step.
+
+
+Done a schematic check with no error/warning with cross view checking 
+
+
+Translation
+------------
+No Data is translated
+
+
+Verification
+------------
+The functional view created on IC611 
+
+***********************
+// Created by ihdl
+module halfadd (X, Y, C, S );
+input X, Y; 
+output C, S; 
+wire S1, S2, S3; 
+nand NANDA (S3, X, Y); 
+nand NANDB (S1, X, S3); 
+nand NANDC (S2, S3, Y); 
+nand NANDD (S, S1, S2); 
+assign C = S3; 
+ 
+endmodule 
+**************************
+
+
+Done a schematic check with no error/warning with cross view checking
+

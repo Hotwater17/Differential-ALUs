@@ -1,0 +1,115 @@
+Information: Checking out the license 'DesignWare'. (SEC-104)
+  Allocating blocks in 'DW_fp_mult_sig_width23_exp_width8_ieee_compliance1_en_ubr_flag0'
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'pparch' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'apparch' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'pparch' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'apparch' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'astr' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'astr' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'pparch' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'apparch' from '(none)' to 'ZeroWireload'. (OPT-170)
+  Allocating blocks in 'DW_lzd_a_width24'
+  Allocating blocks in 'DW_lzod_a_width24_detect_10'
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'apparch' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'apparch' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'apparch' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'apparch' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'apparch' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'apparch' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'apparch' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'apparch' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'apparch' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'apparch' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'apparch' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'apparch' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'apparch' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'astr' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'apparch' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'astr' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'alt1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'apparch' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'DW_fp_mult_sig_width23_exp_width8_ieee_compliance1_en_ubr_flag0' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for 'DW_fp_mult_param_1' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Updating design information... (UID-85)
+
+Information: Checking generated_clocks...
+
+Information: Checking loops...
+
+Information: Checking no_input_delay...
+
+Information: Checking unconstrained_endpoints...
+
+Warning: The following end-points are not constrained for maximum delay.
+
+End point
+---------------
+o[0]
+o[1]
+o[2]
+o[3]
+o[4]
+o[5]
+o[6]
+o[7]
+o[8]
+o[9]
+o[10]
+o[11]
+o[12]
+o[13]
+o[14]
+o[15]
+o[16]
+o[17]
+o[18]
+o[19]
+o[20]
+o[21]
+o[22]
+o[23]
+o[24]
+o[25]
+o[26]
+o[27]
+o[28]
+o[29]
+o[30]
+o[31]
+status[0]
+status[1]
+status[2]
+status[3]
+status[4]
+status[5]
+
+Information: Checking pulse_clock_cell_type...
+
+Information: Checking no_driving_cell...
+
+Information: Checking partial_input_delay...
+1

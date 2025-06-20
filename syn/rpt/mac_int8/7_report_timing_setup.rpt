@@ -1,0 +1,1616 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nworst 50
+        -max_paths 50
+Design : mac_int8
+Version: U-2022.12-SP7-3
+Date   : Wed Mar 12 13:43:16 2025
+****************************************
+
+Operating Conditions: NCCOM   Library: tcbn65lptc
+Wire Load Model Mode: segmented
+
+  Startpoint: c[1] (input port)
+  Endpoint: o[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_int8           ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[1] (in)                                0.00       0.00 r
+  U26/Z (AN3D0)                            0.10       0.10 r
+  U34/ZN (AOI21D0)                         0.04       0.14 f
+  U42/CO (FA1D0)                           0.17       0.31 f
+  U41/CO (FA1D0)                           0.13       0.43 f
+  U40/CO (FA1D0)                           0.16       0.59 f
+  U59/CO (FA1D0)                           0.08       0.68 f
+  U75/CO (FA1D0)                           0.08       0.76 f
+  U80/CO (FA1D0)                           0.09       0.85 f
+  U81/ZN (INVD0)                           0.03       0.88 r
+  U83/ZN (MUX2ND0)                         0.04       0.93 f
+  U84/ZN (MUX2ND0)                         0.08       1.00 f
+  U85/ZN (MUX2ND0)                         0.07       1.08 f
+  U109/S (FA1D0)                           0.15       1.23 r
+  o[7] (out)                               0.00       1.23 r
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[1] (input port)
+  Endpoint: o[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_int8           ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[1] (in)                                0.00       0.00 r
+  U26/Z (AN3D0)                            0.10       0.10 r
+  U34/ZN (AOI21D0)                         0.04       0.14 f
+  U42/CO (FA1D0)                           0.17       0.31 f
+  U41/CO (FA1D0)                           0.13       0.43 f
+  U40/CO (FA1D0)                           0.16       0.59 f
+  U59/CO (FA1D0)                           0.08       0.68 f
+  U75/CO (FA1D0)                           0.08       0.76 f
+  U80/CO (FA1D0)                           0.09       0.85 f
+  U81/ZN (INVD0)                           0.03       0.88 r
+  U83/ZN (MUX2ND0)                         0.04       0.93 f
+  U84/ZN (MUX2ND0)                         0.08       1.00 f
+  U85/ZN (MUX2ND0)                         0.07       1.08 f
+  U109/S (FA1D0)                           0.15       1.23 r
+  o[7] (out)                               0.00       1.23 r
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[1] (input port)
+  Endpoint: o[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_int8           ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[1] (in)                                0.00       0.00 r
+  U26/Z (AN3D0)                            0.10       0.10 r
+  U34/ZN (AOI21D0)                         0.04       0.14 f
+  U42/CO (FA1D0)                           0.17       0.31 f
+  U41/CO (FA1D0)                           0.13       0.43 f
+  U40/CO (FA1D0)                           0.16       0.59 f
+  U59/CO (FA1D0)                           0.08       0.68 f
+  U75/CO (FA1D0)                           0.08       0.76 f
+  U80/CO (FA1D0)                           0.09       0.85 f
+  U81/ZN (INVD0)                           0.03       0.88 r
+  U83/ZN (MUX2ND0)                         0.04       0.93 f
+  U84/ZN (MUX2ND0)                         0.08       1.00 f
+  U85/ZN (MUX2ND0)                         0.07       1.08 f
+  U109/S (FA1D0)                           0.15       1.23 r
+  o[7] (out)                               0.00       1.23 r
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[1] (input port)
+  Endpoint: o[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_int8           ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[1] (in)                                0.00       0.00 r
+  U26/Z (AN3D0)                            0.10       0.10 r
+  U34/ZN (AOI21D0)                         0.04       0.14 f
+  U42/CO (FA1D0)                           0.17       0.31 f
+  U41/CO (FA1D0)                           0.13       0.43 f
+  U40/CO (FA1D0)                           0.16       0.59 f
+  U59/CO (FA1D0)                           0.08       0.68 f
+  U75/CO (FA1D0)                           0.08       0.76 f
+  U80/CO (FA1D0)                           0.09       0.85 f
+  U81/ZN (INVD0)                           0.03       0.88 r
+  U83/ZN (MUX2ND0)                         0.04       0.93 f
+  U84/ZN (MUX2ND0)                         0.08       1.00 f
+  U85/ZN (MUX2ND0)                         0.07       1.08 f
+  U109/S (FA1D0)                           0.15       1.23 r
+  o[7] (out)                               0.00       1.23 r
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[1] (input port)
+  Endpoint: o[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_int8           ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[1] (in)                                0.00       0.00 r
+  U26/Z (AN3D0)                            0.10       0.10 r
+  U34/ZN (AOI21D0)                         0.04       0.14 f
+  U42/CO (FA1D0)                           0.17       0.31 f
+  U41/CO (FA1D0)                           0.13       0.43 f
+  U40/CO (FA1D0)                           0.16       0.59 f
+  U59/CO (FA1D0)                           0.08       0.68 f
+  U75/CO (FA1D0)                           0.08       0.76 f
+  U80/CO (FA1D0)                           0.09       0.85 f
+  U81/ZN (INVD0)                           0.03       0.88 r
+  U83/ZN (MUX2ND0)                         0.04       0.93 f
+  U84/ZN (MUX2ND0)                         0.08       1.00 f
+  U85/ZN (MUX2ND0)                         0.07       1.08 f
+  U109/S (FA1D0)                           0.15       1.23 r
+  o[7] (out)                               0.00       1.23 r
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[1] (input port)
+  Endpoint: o[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_int8           ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[1] (in)                                0.00       0.00 r
+  U26/Z (AN3D0)                            0.10       0.10 r
+  U34/ZN (AOI21D0)                         0.04       0.14 f
+  U42/CO (FA1D0)                           0.17       0.31 f
+  U41/CO (FA1D0)                           0.13       0.43 f
+  U40/CO (FA1D0)                           0.16       0.59 f
+  U59/CO (FA1D0)                           0.08       0.68 f
+  U75/CO (FA1D0)                           0.08       0.76 f
+  U80/CO (FA1D0)                           0.09       0.85 f
+  U81/ZN (INVD0)                           0.03       0.88 r
+  U83/ZN (MUX2ND0)                         0.04       0.93 f
+  U84/ZN (MUX2ND0)                         0.08       1.00 f
+  U85/ZN (MUX2ND0)                         0.07       1.08 f
+  U109/S (FA1D0)                           0.15       1.23 r
+  o[7] (out)                               0.00       1.23 r
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[1] (input port)
+  Endpoint: o[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_int8           ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[1] (in)                                0.00       0.00 r
+  U26/Z (AN3D0)                            0.10       0.10 r
+  U34/ZN (AOI21D0)                         0.04       0.14 f
+  U42/CO (FA1D0)                           0.17       0.31 f
+  U41/CO (FA1D0)                           0.13       0.43 f
+  U40/CO (FA1D0)                           0.16       0.59 f
+  U59/CO (FA1D0)                           0.08       0.68 f
+  U75/CO (FA1D0)                           0.08       0.76 f
+  U80/CO (FA1D0)                           0.09       0.85 f
+  U81/ZN (INVD0)                           0.03       0.88 r
+  U83/ZN (MUX2ND0)                         0.04       0.93 f
+  U84/ZN (MUX2ND0)                         0.08       1.00 f
+  U85/ZN (MUX2ND0)                         0.07       1.08 f
+  U109/S (FA1D0)                           0.15       1.23 r
+  o[7] (out)                               0.00       1.23 r
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[1] (input port)
+  Endpoint: o[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_int8           ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[1] (in)                                0.00       0.00 r
+  U26/Z (AN3D0)                            0.10       0.10 r
+  U34/ZN (AOI21D0)                         0.04       0.14 f
+  U42/CO (FA1D0)                           0.17       0.31 f
+  U41/CO (FA1D0)                           0.13       0.43 f
+  U40/CO (FA1D0)                           0.16       0.59 f
+  U59/CO (FA1D0)                           0.08       0.68 f
+  U75/CO (FA1D0)                           0.08       0.76 f
+  U80/CO (FA1D0)                           0.09       0.85 f
+  U81/ZN (INVD0)                           0.03       0.88 r
+  U83/ZN (MUX2ND0)                         0.04       0.93 f
+  U84/ZN (MUX2ND0)                         0.08       1.00 f
+  U85/ZN (MUX2ND0)                         0.07       1.08 f
+  U109/S (FA1D0)                           0.15       1.23 r
+  o[7] (out)                               0.00       1.23 r
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[1] (input port)
+  Endpoint: o[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_int8           ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[1] (in)                                0.00       0.00 r
+  U26/Z (AN3D0)                            0.10       0.10 r
+  U34/ZN (AOI21D0)                         0.04       0.14 f
+  U42/CO (FA1D0)                           0.17       0.31 f
+  U41/CO (FA1D0)                           0.13       0.43 f
+  U40/CO (FA1D0)                           0.16       0.59 f
+  U59/CO (FA1D0)                           0.08       0.68 f
+  U75/CO (FA1D0)                           0.08       0.76 f
+  U80/CO (FA1D0)                           0.09       0.85 f
+  U81/ZN (INVD0)                           0.03       0.88 r
+  U83/ZN (MUX2ND0)                         0.04       0.93 f
+  U84/ZN (MUX2ND0)                         0.08       1.00 f
+  U85/ZN (MUX2ND0)                         0.07       1.08 f
+  U109/S (FA1D0)                           0.15       1.23 r
+  o[7] (out)                               0.00       1.23 r
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[1] (input port)
+  Endpoint: o[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_int8           ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[1] (in)                                0.00       0.00 r
+  U26/Z (AN3D0)                            0.10       0.10 r
+  U34/ZN (AOI21D0)                         0.04       0.14 f
+  U42/CO (FA1D0)                           0.17       0.31 f
+  U41/CO (FA1D0)                           0.13       0.43 f
+  U40/CO (FA1D0)                           0.16       0.59 f
+  U59/CO (FA1D0)                           0.08       0.68 f
+  U75/CO (FA1D0)                           0.08       0.76 f
+  U80/CO (FA1D0)                           0.09       0.85 f
+  U81/ZN (INVD0)                           0.03       0.88 r
+  U83/ZN (MUX2ND0)                         0.04       0.93 f
+  U84/ZN (MUX2ND0)                         0.08       1.00 f
+  U85/ZN (MUX2ND0)                         0.07       1.08 f
+  U109/S (FA1D0)                           0.15       1.23 r
+  o[7] (out)                               0.00       1.23 r
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[1] (input port)
+  Endpoint: o[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_int8           ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[1] (in)                                0.00       0.00 r
+  U26/Z (AN3D0)                            0.10       0.10 r
+  U34/ZN (AOI21D0)                         0.04       0.14 f
+  U42/CO (FA1D0)                           0.17       0.31 f
+  U41/CO (FA1D0)                           0.13       0.43 f
+  U40/CO (FA1D0)                           0.16       0.59 f
+  U59/CO (FA1D0)                           0.08       0.68 f
+  U75/CO (FA1D0)                           0.08       0.76 f
+  U80/CO (FA1D0)                           0.09       0.85 f
+  U81/ZN (INVD0)                           0.03       0.88 r
+  U83/ZN (MUX2ND0)                         0.04       0.93 f
+  U84/ZN (MUX2ND0)                         0.08       1.00 f
+  U85/ZN (MUX2ND0)                         0.07       1.08 f
+  U109/S (FA1D0)                           0.15       1.23 r
+  o[7] (out)                               0.00       1.23 r
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[1] (input port)
+  Endpoint: o[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_int8           ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[1] (in)                                0.00       0.00 r
+  U26/Z (AN3D0)                            0.10       0.10 r
+  U34/ZN (AOI21D0)                         0.04       0.14 f
+  U42/CO (FA1D0)                           0.17       0.31 f
+  U41/CO (FA1D0)                           0.13       0.43 f
+  U40/CO (FA1D0)                           0.16       0.59 f
+  U59/CO (FA1D0)                           0.08       0.68 f
+  U75/CO (FA1D0)                           0.08       0.76 f
+  U80/CO (FA1D0)                           0.09       0.85 f
+  U81/ZN (INVD0)                           0.03       0.88 r
+  U83/ZN (MUX2ND0)                         0.04       0.93 f
+  U84/ZN (MUX2ND0)                         0.08       1.00 f
+  U85/ZN (MUX2ND0)                         0.07       1.08 f
+  U109/S (FA1D0)                           0.15       1.23 r
+  o[7] (out)                               0.00       1.23 r
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[1] (input port)
+  Endpoint: o[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_int8           ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[1] (in)                                0.00       0.00 r
+  U26/Z (AN3D0)                            0.10       0.10 r
+  U34/ZN (AOI21D0)                         0.04       0.14 f
+  U42/CO (FA1D0)                           0.17       0.31 f
+  U41/CO (FA1D0)                           0.13       0.43 f
+  U40/CO (FA1D0)                           0.16       0.59 f
+  U59/CO (FA1D0)                           0.08       0.68 f
+  U75/CO (FA1D0)                           0.08       0.76 f
+  U80/CO (FA1D0)                           0.09       0.85 f
+  U81/ZN (INVD0)                           0.03       0.88 r
+  U83/ZN (MUX2ND0)                         0.04       0.93 f
+  U84/ZN (MUX2ND0)                         0.08       1.00 f
+  U85/ZN (MUX2ND0)                         0.07       1.08 f
+  U109/S (FA1D0)                           0.15       1.23 r
+  o[7] (out)                               0.00       1.23 r
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[1] (input port)
+  Endpoint: o[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_int8           ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[1] (in)                                0.00       0.00 r
+  U26/Z (AN3D0)                            0.10       0.10 r
+  U34/ZN (AOI21D0)                         0.04       0.14 f
+  U42/CO (FA1D0)                           0.17       0.31 f
+  U41/CO (FA1D0)                           0.13       0.43 f
+  U40/CO (FA1D0)                           0.16       0.59 f
+  U59/CO (FA1D0)                           0.08       0.68 f
+  U75/CO (FA1D0)                           0.08       0.76 f
+  U80/CO (FA1D0)                           0.09       0.85 f
+  U81/ZN (INVD0)                           0.03       0.88 r
+  U83/ZN (MUX2ND0)                         0.04       0.93 f
+  U84/ZN (MUX2ND0)                         0.08       1.00 f
+  U85/ZN (MUX2ND0)                         0.07       1.08 f
+  U109/S (FA1D0)                           0.15       1.23 r
+  o[7] (out)                               0.00       1.23 r
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[1] (input port)
+  Endpoint: o[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_int8           ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[1] (in)                                0.00       0.00 r
+  U26/Z (AN3D0)                            0.10       0.10 r
+  U34/ZN (AOI21D0)                         0.04       0.14 f
+  U42/CO (FA1D0)                           0.17       0.31 f
+  U41/CO (FA1D0)                           0.13       0.43 f
+  U40/CO (FA1D0)                           0.16       0.59 f
+  U59/CO (FA1D0)                           0.08       0.68 f
+  U75/CO (FA1D0)                           0.08       0.76 f
+  U80/CO (FA1D0)                           0.09       0.85 f
+  U81/ZN (INVD0)                           0.03       0.88 r
+  U83/ZN (MUX2ND0)                         0.04       0.93 f
+  U84/ZN (MUX2ND0)                         0.08       1.00 f
+  U85/ZN (MUX2ND0)                         0.07       1.08 f
+  U109/S (FA1D0)                           0.15       1.23 r
+  o[7] (out)                               0.00       1.23 r
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[1] (input port)
+  Endpoint: o[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_int8           ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[1] (in)                                0.00       0.00 r
+  U26/Z (AN3D0)                            0.10       0.10 r
+  U34/ZN (AOI21D0)                         0.04       0.14 f
+  U42/CO (FA1D0)                           0.17       0.31 f
+  U41/CO (FA1D0)                           0.13       0.43 f
+  U40/CO (FA1D0)                           0.16       0.59 f
+  U59/CO (FA1D0)                           0.08       0.68 f
+  U75/CO (FA1D0)                           0.08       0.76 f
+  U80/CO (FA1D0)                           0.09       0.85 f
+  U81/ZN (INVD0)                           0.03       0.88 r
+  U83/ZN (MUX2ND0)                         0.04       0.93 f
+  U84/ZN (MUX2ND0)                         0.08       1.00 f
+  U85/ZN (MUX2ND0)                         0.07       1.08 f
+  U109/S (FA1D0)                           0.15       1.23 r
+  o[7] (out)                               0.00       1.23 r
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[1] (input port)
+  Endpoint: o[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_int8           ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[1] (in)                                0.00       0.00 r
+  U26/Z (AN3D0)                            0.10       0.10 r
+  U34/ZN (AOI21D0)                         0.04       0.14 f
+  U42/CO (FA1D0)                           0.17       0.31 f
+  U41/CO (FA1D0)                           0.13       0.43 f
+  U40/CO (FA1D0)                           0.16       0.59 f
+  U59/CO (FA1D0)                           0.08       0.68 f
+  U75/CO (FA1D0)                           0.08       0.76 f
+  U80/CO (FA1D0)                           0.09       0.85 f
+  U81/ZN (INVD0)                           0.03       0.88 r
+  U83/ZN (MUX2ND0)                         0.04       0.93 f
+  U84/ZN (MUX2ND0)                         0.08       1.00 f
+  U85/ZN (MUX2ND0)                         0.07       1.08 f
+  U109/S (FA1D0)                           0.15       1.23 f
+  o[7] (out)                               0.00       1.23 f
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[1] (input port)
+  Endpoint: o[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_int8           ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[1] (in)                                0.00       0.00 r
+  U26/Z (AN3D0)                            0.10       0.10 r
+  U34/ZN (AOI21D0)                         0.04       0.14 f
+  U42/CO (FA1D0)                           0.17       0.31 f
+  U41/CO (FA1D0)                           0.13       0.43 f
+  U40/CO (FA1D0)                           0.16       0.59 f
+  U59/CO (FA1D0)                           0.08       0.68 f
+  U75/CO (FA1D0)                           0.08       0.76 f
+  U80/CO (FA1D0)                           0.09       0.85 f
+  U81/ZN (INVD0)                           0.03       0.88 r
+  U83/ZN (MUX2ND0)                         0.04       0.93 f
+  U84/ZN (MUX2ND0)                         0.08       1.00 f
+  U85/ZN (MUX2ND0)                         0.07       1.08 f
+  U109/S (FA1D0)                           0.15       1.23 f
+  o[7] (out)                               0.00       1.23 f
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[1] (input port)
+  Endpoint: o[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_int8           ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[1] (in)                                0.00       0.00 r
+  U26/Z (AN3D0)                            0.10       0.10 r
+  U34/ZN (AOI21D0)                         0.04       0.14 f
+  U42/CO (FA1D0)                           0.17       0.31 f
+  U41/CO (FA1D0)                           0.13       0.43 f
+  U40/CO (FA1D0)                           0.16       0.59 f
+  U59/CO (FA1D0)                           0.08       0.68 f
+  U75/CO (FA1D0)                           0.08       0.76 f
+  U80/CO (FA1D0)                           0.09       0.85 f
+  U81/ZN (INVD0)                           0.03       0.88 r
+  U83/ZN (MUX2ND0)                         0.04       0.93 f
+  U84/ZN (MUX2ND0)                         0.08       1.00 f
+  U85/ZN (MUX2ND0)                         0.07       1.08 f
+  U109/S (FA1D0)                           0.15       1.23 f
+  o[7] (out)                               0.00       1.23 f
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[1] (input port)
+  Endpoint: o[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_int8           ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[1] (in)                                0.00       0.00 r
+  U26/Z (AN3D0)                            0.10       0.10 r
+  U34/ZN (AOI21D0)                         0.04       0.14 f
+  U42/CO (FA1D0)                           0.17       0.31 f
+  U41/CO (FA1D0)                           0.13       0.43 f
+  U40/CO (FA1D0)                           0.16       0.59 f
+  U59/CO (FA1D0)                           0.08       0.68 f
+  U75/CO (FA1D0)                           0.08       0.76 f
+  U80/CO (FA1D0)                           0.09       0.85 f
+  U81/ZN (INVD0)                           0.03       0.88 r
+  U83/ZN (MUX2ND0)                         0.04       0.93 f
+  U84/ZN (MUX2ND0)                         0.08       1.00 f
+  U85/ZN (MUX2ND0)                         0.07       1.08 f
+  U109/S (FA1D0)                           0.15       1.23 f
+  o[7] (out)                               0.00       1.23 f
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[1] (input port)
+  Endpoint: o[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_int8           ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[1] (in)                                0.00       0.00 r
+  U26/Z (AN3D0)                            0.10       0.10 r
+  U34/ZN (AOI21D0)                         0.04       0.14 f
+  U42/CO (FA1D0)                           0.17       0.31 f
+  U41/CO (FA1D0)                           0.13       0.43 f
+  U40/CO (FA1D0)                           0.16       0.59 f
+  U59/CO (FA1D0)                           0.08       0.68 f
+  U75/CO (FA1D0)                           0.08       0.76 f
+  U80/CO (FA1D0)                           0.09       0.85 f
+  U81/ZN (INVD0)                           0.03       0.88 r
+  U83/ZN (MUX2ND0)                         0.04       0.93 f
+  U84/ZN (MUX2ND0)                         0.08       1.00 f
+  U85/ZN (MUX2ND0)                         0.07       1.08 f
+  U109/S (FA1D0)                           0.15       1.23 f
+  o[7] (out)                               0.00       1.23 f
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[1] (input port)
+  Endpoint: o[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_int8           ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[1] (in)                                0.00       0.00 r
+  U26/Z (AN3D0)                            0.10       0.10 r
+  U34/ZN (AOI21D0)                         0.04       0.14 f
+  U42/CO (FA1D0)                           0.17       0.31 f
+  U41/CO (FA1D0)                           0.13       0.43 f
+  U40/CO (FA1D0)                           0.16       0.59 f
+  U59/CO (FA1D0)                           0.08       0.68 f
+  U75/CO (FA1D0)                           0.08       0.76 f
+  U80/CO (FA1D0)                           0.09       0.85 f
+  U81/ZN (INVD0)                           0.03       0.88 r
+  U83/ZN (MUX2ND0)                         0.04       0.93 f
+  U84/ZN (MUX2ND0)                         0.08       1.00 f
+  U85/ZN (MUX2ND0)                         0.07       1.08 f
+  U109/S (FA1D0)                           0.15       1.23 f
+  o[7] (out)                               0.00       1.23 f
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[1] (input port)
+  Endpoint: o[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_int8           ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[1] (in)                                0.00       0.00 r
+  U26/Z (AN3D0)                            0.10       0.10 r
+  U34/ZN (AOI21D0)                         0.04       0.14 f
+  U42/CO (FA1D0)                           0.17       0.31 f
+  U41/CO (FA1D0)                           0.13       0.43 f
+  U40/CO (FA1D0)                           0.16       0.59 f
+  U59/CO (FA1D0)                           0.08       0.68 f
+  U75/CO (FA1D0)                           0.08       0.76 f
+  U80/CO (FA1D0)                           0.09       0.85 f
+  U81/ZN (INVD0)                           0.03       0.88 r
+  U83/ZN (MUX2ND0)                         0.04       0.93 f
+  U84/ZN (MUX2ND0)                         0.08       1.00 f
+  U85/ZN (MUX2ND0)                         0.07       1.08 f
+  U109/S (FA1D0)                           0.15       1.23 f
+  o[7] (out)                               0.00       1.23 f
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[1] (input port)
+  Endpoint: o[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_int8           ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[1] (in)                                0.00       0.00 r
+  U26/Z (AN3D0)                            0.10       0.10 r
+  U34/ZN (AOI21D0)                         0.04       0.14 f
+  U42/CO (FA1D0)                           0.17       0.31 f
+  U41/CO (FA1D0)                           0.13       0.43 f
+  U40/CO (FA1D0)                           0.16       0.59 f
+  U59/CO (FA1D0)                           0.08       0.68 f
+  U75/CO (FA1D0)                           0.08       0.76 f
+  U80/CO (FA1D0)                           0.09       0.85 f
+  U81/ZN (INVD0)                           0.03       0.88 r
+  U83/ZN (MUX2ND0)                         0.04       0.93 f
+  U84/ZN (MUX2ND0)                         0.08       1.00 f
+  U85/ZN (MUX2ND0)                         0.07       1.08 f
+  U109/S (FA1D0)                           0.15       1.23 f
+  o[7] (out)                               0.00       1.23 f
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[1] (input port)
+  Endpoint: o[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_int8           ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[1] (in)                                0.00       0.00 r
+  U26/Z (AN3D0)                            0.10       0.10 r
+  U34/ZN (AOI21D0)                         0.04       0.14 f
+  U42/CO (FA1D0)                           0.17       0.31 f
+  U41/CO (FA1D0)                           0.13       0.43 f
+  U40/CO (FA1D0)                           0.16       0.59 f
+  U59/CO (FA1D0)                           0.08       0.68 f
+  U75/CO (FA1D0)                           0.08       0.76 f
+  U80/CO (FA1D0)                           0.09       0.85 f
+  U81/ZN (INVD0)                           0.03       0.88 r
+  U83/ZN (MUX2ND0)                         0.04       0.93 f
+  U84/ZN (MUX2ND0)                         0.08       1.00 f
+  U85/ZN (MUX2ND0)                         0.07       1.08 f
+  U109/S (FA1D0)                           0.15       1.23 f
+  o[7] (out)                               0.00       1.23 f
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[1] (input port)
+  Endpoint: o[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_int8           ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[1] (in)                                0.00       0.00 r
+  U26/Z (AN3D0)                            0.10       0.10 r
+  U34/ZN (AOI21D0)                         0.04       0.14 f
+  U42/CO (FA1D0)                           0.17       0.31 f
+  U41/CO (FA1D0)                           0.13       0.43 f
+  U40/CO (FA1D0)                           0.16       0.59 f
+  U59/CO (FA1D0)                           0.08       0.68 f
+  U75/CO (FA1D0)                           0.08       0.76 f
+  U80/CO (FA1D0)                           0.09       0.85 f
+  U81/ZN (INVD0)                           0.03       0.88 r
+  U83/ZN (MUX2ND0)                         0.04       0.93 f
+  U84/ZN (MUX2ND0)                         0.08       1.00 f
+  U85/ZN (MUX2ND0)                         0.07       1.08 f
+  U109/S (FA1D0)                           0.15       1.23 f
+  o[7] (out)                               0.00       1.23 f
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[1] (input port)
+  Endpoint: o[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_int8           ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[1] (in)                                0.00       0.00 r
+  U26/Z (AN3D0)                            0.10       0.10 r
+  U34/ZN (AOI21D0)                         0.04       0.14 f
+  U42/CO (FA1D0)                           0.17       0.31 f
+  U41/CO (FA1D0)                           0.13       0.43 f
+  U40/CO (FA1D0)                           0.16       0.59 f
+  U59/CO (FA1D0)                           0.08       0.68 f
+  U75/CO (FA1D0)                           0.08       0.76 f
+  U80/CO (FA1D0)                           0.09       0.85 f
+  U81/ZN (INVD0)                           0.03       0.88 r
+  U83/ZN (MUX2ND0)                         0.04       0.93 f
+  U84/ZN (MUX2ND0)                         0.08       1.00 f
+  U85/ZN (MUX2ND0)                         0.07       1.08 f
+  U109/S (FA1D0)                           0.15       1.23 f
+  o[7] (out)                               0.00       1.23 f
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[1] (input port)
+  Endpoint: o[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_int8           ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[1] (in)                                0.00       0.00 r
+  U26/Z (AN3D0)                            0.10       0.10 r
+  U34/ZN (AOI21D0)                         0.04       0.14 f
+  U42/CO (FA1D0)                           0.17       0.31 f
+  U41/CO (FA1D0)                           0.13       0.43 f
+  U40/CO (FA1D0)                           0.16       0.59 f
+  U59/CO (FA1D0)                           0.08       0.68 f
+  U75/CO (FA1D0)                           0.08       0.76 f
+  U80/CO (FA1D0)                           0.09       0.85 f
+  U81/ZN (INVD0)                           0.03       0.88 r
+  U83/ZN (MUX2ND0)                         0.04       0.93 f
+  U84/ZN (MUX2ND0)                         0.08       1.00 f
+  U85/ZN (MUX2ND0)                         0.07       1.08 f
+  U109/S (FA1D0)                           0.15       1.23 f
+  o[7] (out)                               0.00       1.23 f
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[1] (input port)
+  Endpoint: o[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_int8           ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[1] (in)                                0.00       0.00 r
+  U26/Z (AN3D0)                            0.10       0.10 r
+  U34/ZN (AOI21D0)                         0.04       0.14 f
+  U42/CO (FA1D0)                           0.17       0.31 f
+  U41/CO (FA1D0)                           0.13       0.43 f
+  U40/CO (FA1D0)                           0.16       0.59 f
+  U59/CO (FA1D0)                           0.08       0.68 f
+  U75/CO (FA1D0)                           0.08       0.76 f
+  U80/CO (FA1D0)                           0.09       0.85 f
+  U81/ZN (INVD0)                           0.03       0.88 r
+  U83/ZN (MUX2ND0)                         0.04       0.93 f
+  U84/ZN (MUX2ND0)                         0.08       1.00 f
+  U85/ZN (MUX2ND0)                         0.07       1.08 f
+  U109/S (FA1D0)                           0.15       1.23 f
+  o[7] (out)                               0.00       1.23 f
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[1] (input port)
+  Endpoint: o[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_int8           ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[1] (in)                                0.00       0.00 r
+  U26/Z (AN3D0)                            0.10       0.10 r
+  U34/ZN (AOI21D0)                         0.04       0.14 f
+  U42/CO (FA1D0)                           0.17       0.31 f
+  U41/CO (FA1D0)                           0.13       0.43 f
+  U40/CO (FA1D0)                           0.16       0.59 f
+  U59/CO (FA1D0)                           0.08       0.68 f
+  U75/CO (FA1D0)                           0.08       0.76 f
+  U80/CO (FA1D0)                           0.09       0.85 f
+  U81/ZN (INVD0)                           0.03       0.88 r
+  U83/ZN (MUX2ND0)                         0.04       0.93 f
+  U84/ZN (MUX2ND0)                         0.08       1.00 f
+  U85/ZN (MUX2ND0)                         0.07       1.08 f
+  U109/S (FA1D0)                           0.15       1.23 f
+  o[7] (out)                               0.00       1.23 f
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[1] (input port)
+  Endpoint: o[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_int8           ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[1] (in)                                0.00       0.00 r
+  U26/Z (AN3D0)                            0.10       0.10 r
+  U34/ZN (AOI21D0)                         0.04       0.14 f
+  U42/CO (FA1D0)                           0.17       0.31 f
+  U41/CO (FA1D0)                           0.13       0.43 f
+  U40/CO (FA1D0)                           0.16       0.59 f
+  U59/CO (FA1D0)                           0.08       0.68 f
+  U75/CO (FA1D0)                           0.08       0.76 f
+  U80/CO (FA1D0)                           0.09       0.85 f
+  U81/ZN (INVD0)                           0.03       0.88 r
+  U83/ZN (MUX2ND0)                         0.04       0.93 f
+  U84/ZN (MUX2ND0)                         0.08       1.00 f
+  U85/ZN (MUX2ND0)                         0.07       1.08 f
+  U109/S (FA1D0)                           0.15       1.23 f
+  o[7] (out)                               0.00       1.23 f
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[1] (input port)
+  Endpoint: o[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_int8           ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[1] (in)                                0.00       0.00 r
+  U26/Z (AN3D0)                            0.10       0.10 r
+  U34/ZN (AOI21D0)                         0.04       0.14 f
+  U42/CO (FA1D0)                           0.17       0.31 f
+  U41/CO (FA1D0)                           0.13       0.43 f
+  U40/CO (FA1D0)                           0.16       0.59 f
+  U59/CO (FA1D0)                           0.08       0.68 f
+  U75/CO (FA1D0)                           0.08       0.76 f
+  U80/CO (FA1D0)                           0.09       0.85 f
+  U81/ZN (INVD0)                           0.03       0.88 r
+  U83/ZN (MUX2ND0)                         0.04       0.93 f
+  U84/ZN (MUX2ND0)                         0.08       1.00 f
+  U85/ZN (MUX2ND0)                         0.07       1.08 f
+  U109/S (FA1D0)                           0.15       1.23 f
+  o[7] (out)                               0.00       1.23 f
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[1] (input port)
+  Endpoint: o[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_int8           ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[1] (in)                                0.00       0.00 r
+  U26/Z (AN3D0)                            0.10       0.10 r
+  U34/ZN (AOI21D0)                         0.04       0.14 f
+  U42/CO (FA1D0)                           0.17       0.31 f
+  U41/CO (FA1D0)                           0.13       0.43 f
+  U40/CO (FA1D0)                           0.16       0.59 f
+  U59/CO (FA1D0)                           0.08       0.68 f
+  U75/CO (FA1D0)                           0.08       0.76 f
+  U80/CO (FA1D0)                           0.09       0.85 f
+  U81/ZN (INVD0)                           0.03       0.88 r
+  U83/ZN (MUX2ND0)                         0.04       0.93 f
+  U84/ZN (MUX2ND0)                         0.08       1.00 f
+  U85/ZN (MUX2ND0)                         0.07       1.08 f
+  U109/S (FA1D0)                           0.15       1.23 r
+  o[7] (out)                               0.00       1.23 r
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[1] (input port)
+  Endpoint: o[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_int8           ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[1] (in)                                0.00       0.00 r
+  U26/Z (AN3D0)                            0.10       0.10 r
+  U34/ZN (AOI21D0)                         0.04       0.14 f
+  U42/CO (FA1D0)                           0.17       0.31 f
+  U41/CO (FA1D0)                           0.13       0.43 f
+  U40/CO (FA1D0)                           0.16       0.59 f
+  U59/CO (FA1D0)                           0.08       0.68 f
+  U75/CO (FA1D0)                           0.08       0.76 f
+  U80/CO (FA1D0)                           0.09       0.85 f
+  U81/ZN (INVD0)                           0.03       0.88 r
+  U83/ZN (MUX2ND0)                         0.04       0.93 f
+  U84/ZN (MUX2ND0)                         0.08       1.00 f
+  U85/ZN (MUX2ND0)                         0.07       1.08 f
+  U109/S (FA1D0)                           0.15       1.23 r
+  o[7] (out)                               0.00       1.23 r
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[1] (input port)
+  Endpoint: o[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_int8           ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[1] (in)                                0.00       0.00 r
+  U26/Z (AN3D0)                            0.10       0.10 r
+  U34/ZN (AOI21D0)                         0.04       0.14 f
+  U42/CO (FA1D0)                           0.17       0.31 f
+  U41/CO (FA1D0)                           0.13       0.43 f
+  U40/CO (FA1D0)                           0.16       0.59 f
+  U59/CO (FA1D0)                           0.08       0.68 f
+  U75/CO (FA1D0)                           0.08       0.76 f
+  U80/CO (FA1D0)                           0.09       0.85 f
+  U81/ZN (INVD0)                           0.03       0.88 r
+  U83/ZN (MUX2ND0)                         0.04       0.93 f
+  U84/ZN (MUX2ND0)                         0.08       1.00 f
+  U85/ZN (MUX2ND0)                         0.07       1.08 f
+  U109/S (FA1D0)                           0.15       1.23 r
+  o[7] (out)                               0.00       1.23 r
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[1] (input port)
+  Endpoint: o[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_int8           ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[1] (in)                                0.00       0.00 r
+  U26/Z (AN3D0)                            0.10       0.10 r
+  U34/ZN (AOI21D0)                         0.04       0.14 f
+  U42/CO (FA1D0)                           0.17       0.31 f
+  U41/CO (FA1D0)                           0.13       0.43 f
+  U40/CO (FA1D0)                           0.16       0.59 f
+  U59/CO (FA1D0)                           0.08       0.68 f
+  U75/CO (FA1D0)                           0.08       0.76 f
+  U80/CO (FA1D0)                           0.09       0.85 f
+  U81/ZN (INVD0)                           0.03       0.88 r
+  U83/ZN (MUX2ND0)                         0.04       0.93 f
+  U84/ZN (MUX2ND0)                         0.08       1.00 f
+  U85/ZN (MUX2ND0)                         0.07       1.08 f
+  U109/S (FA1D0)                           0.15       1.23 r
+  o[7] (out)                               0.00       1.23 r
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[1] (input port)
+  Endpoint: o[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_int8           ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[1] (in)                                0.00       0.00 r
+  U26/Z (AN3D0)                            0.10       0.10 r
+  U34/ZN (AOI21D0)                         0.04       0.14 f
+  U42/CO (FA1D0)                           0.17       0.31 f
+  U41/CO (FA1D0)                           0.13       0.43 f
+  U40/CO (FA1D0)                           0.16       0.59 f
+  U59/CO (FA1D0)                           0.08       0.68 f
+  U75/CO (FA1D0)                           0.08       0.76 f
+  U80/CO (FA1D0)                           0.09       0.85 f
+  U81/ZN (INVD0)                           0.03       0.88 r
+  U83/ZN (MUX2ND0)                         0.04       0.93 f
+  U84/ZN (MUX2ND0)                         0.08       1.00 f
+  U85/ZN (MUX2ND0)                         0.07       1.08 f
+  U109/S (FA1D0)                           0.15       1.23 r
+  o[7] (out)                               0.00       1.23 r
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[1] (input port)
+  Endpoint: o[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_int8           ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[1] (in)                                0.00       0.00 r
+  U26/Z (AN3D0)                            0.10       0.10 r
+  U34/ZN (AOI21D0)                         0.04       0.14 f
+  U42/CO (FA1D0)                           0.17       0.31 f
+  U41/CO (FA1D0)                           0.13       0.43 f
+  U40/CO (FA1D0)                           0.16       0.59 f
+  U59/CO (FA1D0)                           0.08       0.68 f
+  U75/CO (FA1D0)                           0.08       0.76 f
+  U80/CO (FA1D0)                           0.09       0.85 f
+  U81/ZN (INVD0)                           0.03       0.88 r
+  U83/ZN (MUX2ND0)                         0.04       0.93 f
+  U84/ZN (MUX2ND0)                         0.08       1.00 f
+  U85/ZN (MUX2ND0)                         0.07       1.08 f
+  U109/S (FA1D0)                           0.15       1.23 r
+  o[7] (out)                               0.00       1.23 r
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[1] (input port)
+  Endpoint: o[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_int8           ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[1] (in)                                0.00       0.00 r
+  U26/Z (AN3D0)                            0.10       0.10 r
+  U34/ZN (AOI21D0)                         0.04       0.14 f
+  U42/CO (FA1D0)                           0.17       0.31 f
+  U41/CO (FA1D0)                           0.13       0.43 f
+  U40/CO (FA1D0)                           0.16       0.59 f
+  U59/CO (FA1D0)                           0.08       0.68 f
+  U75/CO (FA1D0)                           0.08       0.76 f
+  U80/CO (FA1D0)                           0.09       0.85 f
+  U81/ZN (INVD0)                           0.03       0.88 r
+  U83/ZN (MUX2ND0)                         0.04       0.93 f
+  U84/ZN (MUX2ND0)                         0.08       1.00 f
+  U85/ZN (MUX2ND0)                         0.07       1.08 f
+  U109/S (FA1D0)                           0.15       1.23 r
+  o[7] (out)                               0.00       1.23 r
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[1] (input port)
+  Endpoint: o[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_int8           ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[1] (in)                                0.00       0.00 r
+  U26/Z (AN3D0)                            0.10       0.10 r
+  U34/ZN (AOI21D0)                         0.04       0.14 f
+  U42/CO (FA1D0)                           0.17       0.31 f
+  U41/CO (FA1D0)                           0.13       0.43 f
+  U40/CO (FA1D0)                           0.16       0.59 f
+  U59/CO (FA1D0)                           0.08       0.68 f
+  U75/CO (FA1D0)                           0.08       0.76 f
+  U80/CO (FA1D0)                           0.09       0.85 f
+  U81/ZN (INVD0)                           0.03       0.88 r
+  U83/ZN (MUX2ND0)                         0.04       0.93 f
+  U84/ZN (MUX2ND0)                         0.08       1.00 f
+  U85/ZN (MUX2ND0)                         0.07       1.08 f
+  U109/S (FA1D0)                           0.15       1.23 r
+  o[7] (out)                               0.00       1.23 r
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[1] (input port)
+  Endpoint: o[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_int8           ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[1] (in)                                0.00       0.00 r
+  U26/Z (AN3D0)                            0.10       0.10 r
+  U34/ZN (AOI21D0)                         0.04       0.14 f
+  U42/CO (FA1D0)                           0.17       0.31 f
+  U41/CO (FA1D0)                           0.13       0.43 f
+  U40/CO (FA1D0)                           0.16       0.59 f
+  U59/CO (FA1D0)                           0.08       0.68 f
+  U75/CO (FA1D0)                           0.08       0.76 f
+  U80/CO (FA1D0)                           0.09       0.85 f
+  U81/ZN (INVD0)                           0.03       0.88 r
+  U83/ZN (MUX2ND0)                         0.04       0.93 f
+  U84/ZN (MUX2ND0)                         0.08       1.00 f
+  U85/ZN (MUX2ND0)                         0.07       1.08 f
+  U109/S (FA1D0)                           0.15       1.23 r
+  o[7] (out)                               0.00       1.23 r
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[1] (input port)
+  Endpoint: o[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_int8           ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[1] (in)                                0.00       0.00 r
+  U26/Z (AN3D0)                            0.10       0.10 r
+  U34/ZN (AOI21D0)                         0.04       0.14 f
+  U42/CO (FA1D0)                           0.17       0.31 f
+  U41/CO (FA1D0)                           0.13       0.43 f
+  U40/CO (FA1D0)                           0.16       0.59 f
+  U59/CO (FA1D0)                           0.08       0.68 f
+  U75/CO (FA1D0)                           0.08       0.76 f
+  U80/CO (FA1D0)                           0.09       0.85 f
+  U81/ZN (INVD0)                           0.03       0.88 r
+  U83/ZN (MUX2ND0)                         0.04       0.93 f
+  U84/ZN (MUX2ND0)                         0.08       1.00 f
+  U85/ZN (MUX2ND0)                         0.07       1.08 f
+  U109/S (FA1D0)                           0.15       1.23 r
+  o[7] (out)                               0.00       1.23 r
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[1] (input port)
+  Endpoint: o[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_int8           ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[1] (in)                                0.00       0.00 r
+  U26/Z (AN3D0)                            0.10       0.10 r
+  U34/ZN (AOI21D0)                         0.04       0.14 f
+  U42/CO (FA1D0)                           0.17       0.31 f
+  U41/CO (FA1D0)                           0.13       0.43 f
+  U40/CO (FA1D0)                           0.16       0.59 f
+  U59/CO (FA1D0)                           0.08       0.68 f
+  U75/CO (FA1D0)                           0.08       0.76 f
+  U80/CO (FA1D0)                           0.09       0.85 f
+  U81/ZN (INVD0)                           0.03       0.88 r
+  U83/ZN (MUX2ND0)                         0.04       0.93 f
+  U84/ZN (MUX2ND0)                         0.08       1.00 f
+  U85/ZN (MUX2ND0)                         0.07       1.08 f
+  U109/S (FA1D0)                           0.15       1.23 r
+  o[7] (out)                               0.00       1.23 r
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[1] (input port)
+  Endpoint: o[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_int8           ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[1] (in)                                0.00       0.00 r
+  U26/Z (AN3D0)                            0.10       0.10 r
+  U34/ZN (AOI21D0)                         0.04       0.14 f
+  U42/CO (FA1D0)                           0.17       0.31 f
+  U41/CO (FA1D0)                           0.13       0.43 f
+  U40/CO (FA1D0)                           0.16       0.59 f
+  U59/CO (FA1D0)                           0.08       0.68 f
+  U75/CO (FA1D0)                           0.08       0.76 f
+  U80/CO (FA1D0)                           0.09       0.85 f
+  U81/ZN (INVD0)                           0.03       0.88 r
+  U83/ZN (MUX2ND0)                         0.04       0.93 f
+  U84/ZN (MUX2ND0)                         0.08       1.00 f
+  U85/ZN (MUX2ND0)                         0.07       1.08 f
+  U109/S (FA1D0)                           0.15       1.23 r
+  o[7] (out)                               0.00       1.23 r
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[1] (input port)
+  Endpoint: o[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_int8           ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[1] (in)                                0.00       0.00 r
+  U26/Z (AN3D0)                            0.10       0.10 r
+  U34/ZN (AOI21D0)                         0.04       0.14 f
+  U42/CO (FA1D0)                           0.17       0.31 f
+  U41/CO (FA1D0)                           0.13       0.43 f
+  U40/CO (FA1D0)                           0.16       0.59 f
+  U59/CO (FA1D0)                           0.08       0.68 f
+  U75/CO (FA1D0)                           0.08       0.76 f
+  U80/CO (FA1D0)                           0.09       0.85 f
+  U81/ZN (INVD0)                           0.03       0.88 r
+  U83/ZN (MUX2ND0)                         0.04       0.93 f
+  U84/ZN (MUX2ND0)                         0.08       1.00 f
+  U85/ZN (MUX2ND0)                         0.07       1.08 f
+  U109/S (FA1D0)                           0.15       1.23 r
+  o[7] (out)                               0.00       1.23 r
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[1] (input port)
+  Endpoint: o[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_int8           ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[1] (in)                                0.00       0.00 r
+  U26/Z (AN3D0)                            0.10       0.10 r
+  U34/ZN (AOI21D0)                         0.04       0.14 f
+  U42/CO (FA1D0)                           0.17       0.31 f
+  U41/CO (FA1D0)                           0.13       0.43 f
+  U40/CO (FA1D0)                           0.16       0.59 f
+  U59/CO (FA1D0)                           0.08       0.68 f
+  U75/CO (FA1D0)                           0.08       0.76 f
+  U80/CO (FA1D0)                           0.09       0.85 f
+  U81/ZN (INVD0)                           0.03       0.88 r
+  U83/ZN (MUX2ND0)                         0.04       0.93 f
+  U84/ZN (MUX2ND0)                         0.08       1.00 f
+  U85/ZN (MUX2ND0)                         0.07       1.08 f
+  U109/S (FA1D0)                           0.15       1.23 r
+  o[7] (out)                               0.00       1.23 r
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[1] (input port)
+  Endpoint: o[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_int8           ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[1] (in)                                0.00       0.00 r
+  U26/Z (AN3D0)                            0.10       0.10 r
+  U34/ZN (AOI21D0)                         0.04       0.14 f
+  U42/CO (FA1D0)                           0.17       0.31 f
+  U41/CO (FA1D0)                           0.13       0.43 f
+  U40/CO (FA1D0)                           0.16       0.59 f
+  U59/CO (FA1D0)                           0.08       0.68 f
+  U75/CO (FA1D0)                           0.08       0.76 f
+  U80/CO (FA1D0)                           0.09       0.85 f
+  U81/ZN (INVD0)                           0.03       0.88 r
+  U83/ZN (MUX2ND0)                         0.04       0.93 f
+  U84/ZN (MUX2ND0)                         0.08       1.00 f
+  U85/ZN (MUX2ND0)                         0.07       1.08 f
+  U109/S (FA1D0)                           0.15       1.23 r
+  o[7] (out)                               0.00       1.23 r
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[1] (input port)
+  Endpoint: o[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_int8           ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[1] (in)                                0.00       0.00 r
+  U26/Z (AN3D0)                            0.10       0.10 r
+  U34/ZN (AOI21D0)                         0.04       0.14 f
+  U42/CO (FA1D0)                           0.17       0.31 f
+  U41/CO (FA1D0)                           0.13       0.43 f
+  U40/CO (FA1D0)                           0.16       0.59 f
+  U59/CO (FA1D0)                           0.08       0.68 f
+  U75/CO (FA1D0)                           0.08       0.76 f
+  U80/CO (FA1D0)                           0.09       0.85 f
+  U81/ZN (INVD0)                           0.03       0.88 r
+  U83/ZN (MUX2ND0)                         0.04       0.93 f
+  U84/ZN (MUX2ND0)                         0.08       1.00 f
+  U85/ZN (MUX2ND0)                         0.07       1.08 f
+  U109/S (FA1D0)                           0.15       1.23 r
+  o[7] (out)                               0.00       1.23 r
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[1] (input port)
+  Endpoint: o[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_int8           ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[1] (in)                                0.00       0.00 r
+  U26/Z (AN3D0)                            0.10       0.10 r
+  U34/ZN (AOI21D0)                         0.04       0.14 f
+  U42/CO (FA1D0)                           0.17       0.31 f
+  U41/CO (FA1D0)                           0.13       0.43 f
+  U40/CO (FA1D0)                           0.16       0.59 f
+  U59/CO (FA1D0)                           0.08       0.68 f
+  U75/CO (FA1D0)                           0.08       0.76 f
+  U80/CO (FA1D0)                           0.09       0.85 f
+  U81/ZN (INVD0)                           0.03       0.88 r
+  U83/ZN (MUX2ND0)                         0.04       0.93 f
+  U84/ZN (MUX2ND0)                         0.08       1.00 f
+  U85/ZN (MUX2ND0)                         0.07       1.08 f
+  U109/S (FA1D0)                           0.15       1.23 r
+  o[7] (out)                               0.00       1.23 r
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: c[1] (input port)
+  Endpoint: o[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_int8           ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  c[1] (in)                                0.00       0.00 r
+  U26/Z (AN3D0)                            0.10       0.10 r
+  U34/ZN (AOI21D0)                         0.04       0.14 f
+  U42/CO (FA1D0)                           0.17       0.31 f
+  U41/CO (FA1D0)                           0.13       0.43 f
+  U40/CO (FA1D0)                           0.16       0.59 f
+  U59/CO (FA1D0)                           0.08       0.68 f
+  U75/CO (FA1D0)                           0.08       0.76 f
+  U80/CO (FA1D0)                           0.09       0.85 f
+  U81/ZN (INVD0)                           0.03       0.88 r
+  U83/ZN (MUX2ND0)                         0.04       0.92 f
+  U84/ZN (MUX2ND0)                         0.08       1.00 f
+  U85/ZN (MUX2ND0)                         0.07       1.08 f
+  U109/S (FA1D0)                           0.15       1.23 r
+  o[7] (out)                               0.00       1.23 r
+  data arrival time                                   1.23
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

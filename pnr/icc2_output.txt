@@ -1,0 +1,186 @@
+ 
+                              IC Compiler II (TM)
+
+             Version U-2022.12-SP2 for linux64 - Feb 21, 2023 -SLE
+
+                    Copyright (c) 1988 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Load ICV ICCII menu file: /tools/Synopsys/ICValidator/V-2023.12-SP5-5/etc/tcl-u/Icc2Menu.tcl
+ + VUE INFO: Please click View->IC Validator VUE in LayoutWindow menu
+            to launch VUE.
+
+ + VUE INFO: Found a usable port: 2446
+
+icc2_shell> ###### Source setup files, load design ######
+icc2_shell> set WRITE_GDS_LAYER_MAP_FILE "/home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/LIBERATE/run_char/pnr_test/inputs/gdsout_6X1Z.map"
+/home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/LIBERATE/run_char/pnr_test/inputs/gdsout_6X1Z.map
+icc2_shell> #set WRITE_GDS_LAYER_MAP_FILE "/technology/TSMC_65nm_MS_RF_LP_1.2_2.5V_full/TECH_LIB/PDK/OA/T-N65-CM-SP-007-K3/1_7A/tsmcN65/tsmcN65.layermap"
+icc2_shell> set OUTPUTS_DIR ../output
+../output
+icc2_shell> set LIB_NAME DRD_240902
+DRD_240902
+icc2_shell> set BUFFER_LIB BUFF_DRD_240911
+BUFF_DRD_240911
+icc2_shell> set LIBS_NAMES $LIB_NAME $BUFFER_LIB
+Error: wrong # args: should be "set varName ?newValue?"
+        Use error_info for more info. (CMD-013)
+icc2_shell> #set LIBS_DIR [list "/home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/LIBERATE/run_char/pnr_test/icc2/$LIB_NAME.ndm
+icc2_shell> #                /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/LIBERATE/run_char/pnr_test/icc2/$BUFFER_LIB.ndm"]
+icc2_shell> set LIB_DIR "/home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/LIBERATE/run_char/pnr_test/icc2/$LIB_NAME.ndm"
+/home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/LIBERATE/run_char/pnr_test/icc2/DRD_240902.ndm
+icc2_shell> set BUFF_LIB_DIR "/home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/LIBERATE/run_char/pnr_test/icc2/$BUFFER_LIB.ndm"
+/home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/LIBERATE/run_char/pnr_test/icc2/BUFF_DRD_240911.ndm
+icc2_shell> open_lib $LIB_DIR
+Information: Loading library file '/home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/LIBERATE/run_char/pnr_test/icc2/DRD_240902.ndm' (FILE-007)
+{DRD_240902}
+icc2_shell> open_lib $BUFF_LIB_DIR
+Information: Loading library file '/home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/LIBERATE/run_char/pnr_test/icc2/BUFF_DRD_240911.ndm' (FILE-007)
+{BUFF_DRD_240911}
+icc2_shell> create_lib -technology "/home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/LIBERATE/run_char/pnr_test/inputs/tsmcn65_9lmT2.tf" -ref_libs [get_libs *] TEST_DRD
+Warning: Layer 'AP' is missing the attribute 'minArea'. (tsmcn65_9lmT2.tf line 717) (TECH-026)
+Warning: Layer 'VIA1' is missing the attribute 'cutNameTbl'. (tsmcn65_9lmT2.tf line 786) (TECH-026)
+Warning: Layer 'VIA2' is missing the attribute 'cutNameTbl'. (tsmcn65_9lmT2.tf line 816) (TECH-026)
+Warning: Layer 'VIA3' is missing the attribute 'cutNameTbl'. (tsmcn65_9lmT2.tf line 846) (TECH-026)
+Warning: Layer 'VIA4' is missing the attribute 'cutNameTbl'. (tsmcn65_9lmT2.tf line 875) (TECH-026)
+Warning: Layer 'VIA2' is missing the attribute 'cutNameTbl'. (tsmcn65_9lmT2.tf line 816) (TECH-026)
+Warning: Layer 'VIA3' is missing the attribute 'cutNameTbl'. (tsmcn65_9lmT2.tf line 846) (TECH-026)
+Warning: Layer 'VIA4' is missing the attribute 'cutNameTbl'. (tsmcn65_9lmT2.tf line 875) (TECH-026)
+Warning: Layer 'VIA5' is missing the attribute 'cutNameTbl'. (tsmcn65_9lmT2.tf line 904) (TECH-026)
+Warning: Layer 'AP' is missing the attribute 'minArea'. ( line 753) (TECH-026)
+Warning: Layer 'VIA1' is missing the attribute 'fatTblExtensionRangeDimension'. (tsmcn65_9lmT2.tf line 806) (TECH-026)
+Warning: Layer 'VIA2' is missing the attribute 'fatTblExtensionRangeDimension'. (tsmcn65_9lmT2.tf line 836) (TECH-026)
+Warning: Layer 'VIA3' is missing the attribute 'fatTblExtensionRangeDimension'. (tsmcn65_9lmT2.tf line 865) (TECH-026)
+Warning: Layer 'VIA4' is missing the attribute 'fatTblExtensionRangeDimension'. (tsmcn65_9lmT2.tf line 894) (TECH-026)
+Warning: Layer 'VIA5' is missing the attribute 'fatTblExtensionRangeDimension'. (tsmcn65_9lmT2.tf line 923) (TECH-026)
+Warning: Layer 'VIA6' is missing the attribute 'fatTblExtensionRangeDimension'. (tsmcn65_9lmT2.tf line 952) (TECH-026)
+Warning: Layer 'VIA7' is missing the attribute 'fatTblExtensionRangeDimension'. (tsmcn65_9lmT2.tf line 979) (TECH-026)
+Warning: Layer 'VIA8' is missing the attribute 'fatTblExtensionRangeDimension'. (tsmcn65_9lmT2.tf line 1006) (TECH-026)
+Warning: Cut layer 'VIA1' has a non-cross primary default ContactCode 'VIA12'. (line 1203) (TECH-083w)
+Information: Loading technology file '/home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/LIBERATE/run_char/pnr_test/inputs/tsmcn65_9lmT2.tf' (FILE-007)
+Warning: Technology used to create frame-view and current technology have inconsistency: Via_def 'M1_PO' is only set as default via in technology 'tsmcn65_9lmT2.tf'. (FRAM-054)
+Warning: Technology used to create frame-view and current technology have inconsistency: Via_def 'M2_M1' is only set as default via in technology 'tsmcn65_9lmT2.tf'. (FRAM-054)
+Warning: Technology used to create frame-view and current technology have inconsistency: Via_def 'M3_M2' is only set as default via in technology 'tsmcn65_9lmT2.tf'. (FRAM-054)
+Warning: Technology used to create frame-view and current technology have inconsistency: Via_def 'M4_M3' is only set as default via in technology 'tsmcn65_9lmT2.tf'. (FRAM-054)
+Warning: Technology 'tsmcn65_9lmT2.tf' used for frame-view creation in library 'DRD_240902', is inconsistent with the current technology 'tsmcn65_9lmT2.tf' of library 'TEST_DRD'. Please run derive_design_level_via_regions to generate up-do-date via region in the design library. (NDM-102)
+Warning: Technology used to create frame-view and current technology have inconsistency: Via_def 'M1_PO' is only set as default via in technology 'tsmcn65_9lmT2.tf'. (FRAM-054)
+Warning: Technology used to create frame-view and current technology have inconsistency: Via_def 'M2_M1' is only set as default via in technology 'tsmcn65_9lmT2.tf'. (FRAM-054)
+Warning: Technology 'tsmcn65_9lmT2.tf' used for frame-view creation in library 'BUFF_DRD_240911', is inconsistent with the current technology 'tsmcn65_9lmT2.tf' of library 'TEST_DRD'. Please run derive_design_level_via_regions to generate up-do-date via region in the design library. (NDM-102)
+{TEST_DRD}
+icc2_shell> derive_design_level_via_regions
+Information: Using technology 'tsmcn65_9lmT2.tf' to derive design library via region in the frame-views of library 'DRD_240902'. (FRAM-088)
+Via regions for library DRD_240902 created successfully
+Information: Using technology 'tsmcn65_9lmT2.tf' to derive design library via region in the frame-views of library 'BUFF_DRD_240911'. (FRAM-088)
+Via regions for library BUFF_DRD_240911 created successfully
+Finish deriving library override via region
+1
+icc2_shell> #set_app_options -name signoff.check_drc.runset -value /technology/TSMC_65nm_MS_RF_LP_1.2_2.5V_full/TECH_LIB/VERIFY_RULE_FILE/DRC/T-N65-CL-DR-001-C1/2_5A/CLN65S_9M_6X1Z1U.25a
+icc2_shell> set DESIGN mac_float32
+mac_float32
+icc2_shell> set VERILOG_NETLIST [list   "/home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/drd/output/${DESIGN}_hier_diff.v"
+                    ]
+/home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/drd/output/mac_float32_hier_diff.v
+icc2_shell> read_verilog_outline -library TEST_DRD $VERILOG_NETLIST
+HCVR Pass0: Determining module hierarchy.
+Loading verilog file '/home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/drd/output/mac_float32_hier_diff.v'
+HCVR Pass0 complete.
+Loading verilog file '/home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/drd/output/mac_float32_hier_diff.v'
+Information: Reading Verilog into new design 'mac_float32' in library 'TEST_DRD'. (VR-012)
+1
+icc2_shell> link_block
+Using libraries: TEST_DRD DRD_240902 BUFF_DRD_240911
+Linking block TEST_DRD:mac_float32.outline
+Information: Skipping module 'INVD1_DIFF', using frozen block 'DRD_240902:INVD1_DIFF'. (LNK-031)
+Information: Skipping module 'MUX2', using frozen block 'DRD_240902:MUX2'. (LNK-031)
+Information: Skipping module 'AND3', using frozen block 'DRD_240902:AND3'. (LNK-031)
+Information: Skipping module 'AND2', using frozen block 'DRD_240902:AND2'. (LNK-031)
+Information: Skipping module 'AOI21', using frozen block 'DRD_240902:AOI21'. (LNK-031)
+Information: Skipping module 'AND4', using frozen block 'DRD_240902:AND4'. (LNK-031)
+Information: Skipping module 'AOI22', using frozen block 'DRD_240902:AOI22'. (LNK-031)
+Information: Skipping module 'HA_DRD', using frozen block 'DRD_240902:HA_DRD'. (LNK-031)
+Information: Skipping module 'FA32_DRD', using frozen block 'DRD_240902:FA32_DRD'. (LNK-031)
+Information: Skipping module 'OAI22', using frozen block 'DRD_240902:OAI22'. (LNK-031)
+Information: Skipping module 'SE2DIFF', using frozen block 'DRD_240902:SE2DIFF'. (LNK-031)
+Information: Skipping module 'DIFF2SE', using frozen block 'DRD_240902:DIFF2SE'. (LNK-031)
+Information: Skipped 12 modules from block 'TEST_DRD:mac_float32.outline'. (LNK-032)
+Information: User units loaded from library 'BUFF_DRD_240911' (LNK-040)
+Design 'mac_float32' was successfully linked.
+1
+icc2_shell> #set_working_design_stack DUPASABL:ALU.outline
+icc2_shell> set_working_design_stack TEST_DRD:${DESIGN}.outline
+{TEST_DRD:mac_float32.outline}
+icc2_shell> expand_outline
+Information: Reading Verilog into new design 'mac_float32' in library 'TEST_DRD'. (VR-012)
+Loading verilog file '/tmp/mac_float32.hcvr.v.gz'
+Transferring floorplan information ...
+Using libraries: TEST_DRD DRD_240902 BUFF_DRD_240911
+Linking block TEST_DRD:mac_float32.design
+Design 'mac_float32' was successfully linked.
+0 port connections copied
+0 cells deleted from design view of design mac_float32
+0 cells added to design view of design mac_float32
+reference changed for 0 cells
+0 route shapes copied
+pins of 138 ports merged
+placement of 4824 cells copied.
+view merge from mac_float32.outline to mac_float32.design finished.
+floorplan information transferred successfully.
+1
+icc2_shell> set top_module $DESIGN
+mac_float32
+icc2_shell> report_references
+****************************************
+Report : reference
+Design : mac_float32
+Version: U-2022.12-SP2
+Date   : Mon Mar 24 20:05:53 2025
+****************************************
+
+Attributes
+    b - black-box (unknown)
+    h - hierarchical
+    n - noncombinational
+    u - contains unmapped logic
+    E - extracted timing model
+    Q - Quick timing model (QTM)
+    s - synthetic operator
+
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+--------------------------------------------------------------------------------
+AND2               DRD_240902         6.24    1392       8686.08   
+AND3               DRD_240902         6.72      82        551.04   
+AND4               DRD_240902         7.68     112        860.16   
+AOI21              DRD_240902         6.72     410       2755.20   
+AOI22              DRD_240902         7.68     603       4631.04   
+DIFF2SE            DRD_240902         4.80      38        182.40   
+FA32_DRD           DRD_240902        16.80     220       3696.00   
+HA_DRD             DRD_240902        12.00     115       1380.00   
+INVD1_DIFF         DRD_240902         5.76     869       5005.44   
+MUX2               DRD_240902         6.24     563       3513.12   
+OAI22              DRD_240902         7.68     321       2465.28   
+SE2DIFF            DRD_240902         6.24      99        617.76   
+--------------------------------------------------------------------------------
+Total 12 references                                     34343.52
+1
+icc2_shell> set_working_design_stack TEST_DRD:mac_float32.outline
+icc2_shell> exit
+Maximum memory usage for this session: 534.97 MB
+Maximum memory usage for this session including child processes: 534.97 MB
+CPU usage for this session:     21 seconds (  0.01 hours)
+Elapsed time for this session:     74 seconds (  0.02 hours)
+Thank you for using IC Compiler II.
+

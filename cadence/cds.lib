@@ -1,0 +1,373 @@
+# File Created by  at Thu Mar 13 13:36:32 2025
+# assisted by CdsLibEditor
+SOFTINCLUDE /tools/Cadence/IC618/share/cdssetup/cds.lib
+
+DEFINE avTech /tools/Cadence/ASSURA41/tools.lnx86/assura/etc/avtech/avTech
+DEFINE tsmcN65 /technology/TSMC_65nm_MS_RF_LP_1.2_2.5V_full/TECH_LIB/PDK/OA/T-N65-CM-SP-007-K3/1_7A/tsmcN65
+DEFINE tcbn65lp /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/tcbn65lp
+#Removed by ddDeleteObj: DEFINE changjoo_babo /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/changjoo_babo
+DEFINE changjoo_babo /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/changjoo_babo
+#Removed by ddDeleteObj: DEFINE ts6n65lplla32x32m4f_210a /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/ts6n65lplla32x32m4f_210a
+#Removed by ddDeleteObj: DEFINE ts6n65lplla32x32m4f_210a /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/ts6n65lplla32x32m4f_210a
+#Removed by ddDeleteObj: DEFINE ts6n65lplla32x32m4f_210a /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/ts6n65lplla32x32m4f_210a
+#Removed by ddDeleteObj: DEFINE vect /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/vect
+#Removed by ddDeleteObj: DEFINE SRAM /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/SRAM
+DEFINE RF /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/RF
+#Removed by ddDeleteObj: DEFINE vect /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/vect
+#Removed by ddDeleteObj: DEFINE vect /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/vect
+#Removed by ddDeleteObj: DEFINE vect /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/vect
+DEFINE ts6n65lplla32x32m4f_210a_tt1p2v40c /home/hotwater/memory_compiler/RF_VECT/ts6n65lplla32x32m4f_210a/SYNOPSYS/
+DEFINE RF_SPICE /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/RF_SPICE
+DEFINE RF_LEF /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/RF_LEF
+DEFINE vect_test /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/vect_test
+DEFINE MEM_TEST AMS_intro/ADE/MEM_TEST/
+DEFINE vect_BACK /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/vect_BACK
+#Removed by ddDeleteObj: DEFINE vect /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/vect
+#Removed by ddDeleteObj: DEFINE vect /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/vect
+DEFINE vect /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/vect
+DEFINE vect_piped_test /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/vect_piped_test
+DEFINE LS /home/hotwater/Voltage_Stacking/SimpleCore/Design/SIGNOFF/LS
+DEFINE 65GP_OA /home/hotwater/Voltage_Stacking/SimpleCore/Design/CADENCE/65GP_OA/tcbn65gplus
+DEFINE tsmcN28 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/tsmcN28/TSMC_iPDK/TN28CRSP025W1_1_0_2P2A/tsmcN28
+DEFINE tcbn28hpcplusbwp30p140 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/tcbn28hpc/Back_End/cdk/tcbn28hpcplusbwp30p140_110a/tcbn28hpcplusbwp30p140
+#Removed by ddDeleteObj: DEFINE LS_28 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/LS_28
+DEFINE LS_28 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/LS_28
+DEFINE vect_piped_28 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/vect_piped_28
+DEFINE vect_piped_65 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/vect_piped_65
+DEFINE 65_MCML /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/65_MCML
+DEFINE vect_layout /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/vect_layout
+DEFINE vect_piped_LSUplusSBIT /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/vect_piped_LSUplusSBIT
+DEFINE FILL1_28 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/FILL1_28
+DEFINE vect_piped_SAMELANE_MANUAL /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/vect_piped_SAMELANE_MANUAL
+DEFINE 65_DCVS /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/65_DCVS
+#Removed by ddDeleteObj: DEFINE ALU_DCVS /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/ALU_DCVS
+DEFINE ALU_DCVS /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/ALU_DCVS
+DEFINE tsmc18rf /technology/TSMC_180nm_MS_RF_1.8_3.3V_full/TECH_LIB/PDK/OA/T-018-MM-SP-001-K3_1_5g/tsmc18rf/tsmc18rf/
+#Removed by ddDeleteObj: DEFINE PADS18 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/PADS18
+DEFINE 180PADS /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/180PADS
+#Removed by ddDeleteObj: DEFINE 1111 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/1111
+DEFINE ALU_65LP /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/ALU_65LP
+DEFINE 65_DRD /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/65_DRD
+DEFINE ALU_DRD /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/ALU_DRD
+DEFINE tph018nv3_sl /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/tph018nv3_sl
+DEFINE tpa18nv /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/tpa18nv
+DEFINE tph018nv3_sl_new /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/tph018nv3_sl_new
+DEFINE Svarog /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/Svarog
+DEFINE tcb018gbwp7t /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/tcb018gbwp7t
+DEFINE tph180newnew /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/tph180newnew
+DEFINE PADS180NEW /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/PADS180NEW
+#Removed by ddDeleteObj: DEFINE tph018newnewnew /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/tph018newnewnew
+DEFINE tph018newnewnew /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/tph018newnewnew
+DEFINE PADS180NEW_GDS /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/PADS180NEW_GDS
+DEFINE 65_SyAL /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/65_SyAL
+DEFINE ALU_SyAL /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/ALU_SyAL
+DEFINE ALU_DSyAL /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/ALU_DSyAL
+DEFINE 65_DSyAL /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/65_DSyAL
+DEFINE ALU_DRD_MF_D /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/ALU_DRD_MF_D
+DEFINE 65_SABL /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/65_SABL
+DEFINE ALU_SABL /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/ALU_SABL
+DEFINE ALU_SABL_231113 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/ALU_SABL_231113
+DEFINE SABL_adder /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/SABL_adder
+DEFINE SABL_adder_AND /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/SABL_adder_AND
+DEFINE SABL_adder_AND_DRD /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/SABL_adder_AND_DRD
+#Removed by ddDeleteObj: DEFINE SABL_adder_AND_NOINV /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/SABL_adder_AND_NOINV
+DEFINE SABL_adder_AND_HVT /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/SABL_adder_AND_HVT
+DEFINE SABL_adder_AND_LVT /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/SABL_adder_AND_LVT
+DEFINE SABL_adder_AND_fanout /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/SABL_adder_AND_fanout
+DEFINE SABL_adder_FO2 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/SABL_adder_FO2
+DEFINE ALU_SABL2 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/ALU_SABL2
+DEFINE ALU_DRD2 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/ALU_DRD2
+DEFINE SABL_adder_DRD_advanced /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/SABL_adder_DRD_advanced
+DEFINE SABL_adder_65LP /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/SABL_adder_65LP
+DEFINE SABL_adder_manual /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/SABL_adder_manual
+DEFINE CEB_SC /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/CEB_SC
+DEFINE 65_DRD_PDN /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/65_DRD_PDN
+#Removed by ddDeleteObj: DEFINE 65_DRD_PUN /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/65_DRD_PUN
+DEFINE 65_DRD_MAIN /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/65_DRD_MAIN
+DEFINE MUL_ARRAY_65LP /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/MUL_ARRAY_65LP
+DEFINE 65_DRD_PUN /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/65_DRD_PUN
+DEFINE MUL_SYN /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/MUL_SYN
+DEFINE MUL_ARRAY /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/MUL_ARRAY
+DEFINE MUL_ARRAY_DRD /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/MUL_ARRAY_DRD
+DEFINE MUL_SYN_32 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/MUL_SYN_32
+DEFINE MUL_ARRAY_32 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/MUL_ARRAY_32
+DEFINE MUL_ARRAY_DRD_32 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/MUL_ARRAY_DRD_32
+DEFINE DRD_FLAVORS /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/DRD_FLAVORS
+DEFINE MUL_ARRAY_CPA_32 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/MUL_ARRAY_CPA_32
+DEFINE MUL_ARRAY_DRD_CPA_32 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/MUL_ARRAY_DRD_CPA_32
+DEFINE DRD_ADDER_NEWSCRIPT /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/DRD_ADDER_NEWSCRIPT
+DEFINE MUL_DRD_NEWSCRIPT /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/MUL_DRD_NEWSCRIPT
+DEFINE MUL_DRD_INFERENCE /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/MUL_DRD_INFERENCE
+DEFINE MUL_DRD_NOADD /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/MUL_DRD_NOADD
+DEFINE MUL_DRD_NOADD_CMOS /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/MUL_DRD_NOADD_CMOS
+DEFINE MUL_DRD_INFERENCE_CMOS /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/MUL_DRD_INFERENCE_CMOS
+#Removed by ddDeleteObj: DEFINE MUL_AUTO /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/MUL_AUTO
+DEFINE MUL_RADIX4_CMOS /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/MUL_RADIX4_CMOS
+DEFINE MUL_BENC_RADIX4_MUX_CMOS /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/MUL_BENC_RADIX4_MUX_CMOS
+DEFINE MUL_BENC_RADIX4_CMOS /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/MUL_BENC_RADIX4_CMOS
+DEFINE MUL_AND_RADIX4_CMOS /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/MUL_AND_RADIX4_CMOS
+DEFINE MUL_BENC_RADIX8_CMOS /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/MUL_BENC_RADIX8_CMOS
+DEFINE MUL_BENC_RADIX8_MUX_CMOS /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/MUL_BENC_RADIX8_MUX_CMOS
+DEFINE MUL_AUTO_CMOS /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/MUL_AUTO_CMOS
+#Removed by ddDeleteObj: DEFINE MUL_AUTO_DRD /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/MUL_AUTO_DRD
+DEFINE MUL_AUTO_DRD /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/MUL_AUTO_DRD
+DEFINE MUL_AND_RADIX4_DRD /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/MUL_AND_RADIX4_DRD
+DEFINE MUL_BENC_RADIX4_DRD /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/MUL_BENC_RADIX4_DRD
+DEFINE MUL_BENC_RADIX4_MUX_DRD /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/MUL_BENC_RADIX4_MUX_DRD
+DEFINE MUL_BENC_RADIX8_MUX_DRD /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/MUL_BENC_RADIX8_MUX_DRD
+DEFINE MUL_BENC_RADIX8_DRD /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/MUL_BENC_RADIX8_DRD
+DEFINE VECT_ALU_BENC_RADIX8_MUX_DRD /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECT_ALU_BENC_RADIX8_MUX_DRD
+DEFINE VECT_ALU_BENC_RADIX8_MUX_CMOS /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECT_ALU_BENC_RADIX8_MUX_CMOS
+#Removed by ddDeleteObj: DEFINE SIGNED_VECT_ALU_AUTO_CMOS /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/SIGNED_VECT_ALU_AUTO_CMOS
+#Removed by ddDeleteObj: DEFINE SIGNED_VECT_ALU_AUTO_DRD /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/SIGNED_VECT_ALU_AUTO_DRD
+DEFINE SIGNED_MUL_AND_RADIX4_CMOS /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/SIGNED_MUL_AND_RADIX4_CMOS
+DEFINE SIGNED_MUL_AND_RADIX4_DRD /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/SIGNED_MUL_AND_RADIX4_DRD
+DEFINE SIGNED_MUL_AUTO_CMOS /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/SIGNED_MUL_AUTO_CMOS
+DEFINE SIGNED_MUL_AUTO_DRD /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/SIGNED_MUL_AUTO_DRD
+DEFINE SIGNED_MUL_BENC_RADIX4_CMOS /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/SIGNED_MUL_BENC_RADIX4_CMOS
+DEFINE SIGNED_MUL_BENC_RADIX4_DRD /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/SIGNED_MUL_BENC_RADIX4_DRD
+DEFINE SIGNED_MUL_BENC_RADIX4_MUX_CMOS /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/SIGNED_MUL_BENC_RADIX4_MUX_CMOS
+DEFINE SIGNED_MUL_BENC_RADIX4_MUX_DRD /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/SIGNED_MUL_BENC_RADIX4_MUX_DRD
+DEFINE SIGNED_MUL_BENC_RADIX8_CMOS /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/SIGNED_MUL_BENC_RADIX8_CMOS
+DEFINE SIGNED_MUL_BENC_RADIX8_DRD /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/SIGNED_MUL_BENC_RADIX8_DRD
+DEFINE SIGNED_MUL_BENC_RADIX8_MUX_CMOS /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/SIGNED_MUL_BENC_RADIX8_MUX_CMOS
+DEFINE SIGNED_MUL_BENC_RADIX8_MUX_DRD /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/SIGNED_MUL_BENC_RADIX8_MUX_DRD
+DEFINE SIGNED_MUL_BENC_RADIX4_CMOS_V2 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/SIGNED_MUL_BENC_RADIX4_CMOS_V2
+DEFINE SIGNED_MUL_BENC_RADIX4_SPEED_CMOS /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/SIGNED_MUL_BENC_RADIX4_SPEED_CMOS
+DEFINE SIGNED_MUL_BENC_RADIX4_NOAOI22_CMOS /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/SIGNED_MUL_BENC_RADIX4_NOAOI22_CMOS
+DEFINE SIGNED_MUL_BENC_RADIX4_NOAOI22_DRD /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/SIGNED_MUL_BENC_RADIX4_NOAOI22_DRD
+DEFINE ADDSUB_CMOS /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/ADDSUB_CMOS
+DEFINE ADDSUB_DRD /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/ADDSUB_DRD
+DEFINE SHIFTER_DRD /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/SHIFTER_DRD
+DEFINE SHIFTER_CMOS /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/SHIFTER_CMOS
+DEFINE CMP_CMOS /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/CMP_CMOS
+DEFINE CMP_DRD /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/CMP_DRD
+#Removed by ddDeleteObj: DEFINE VECTOR_ALU_CMOS /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_ALU_CMOS
+#Removed by ddDeleteObj: DEFINE VECTOR_ALU_DRD /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_ALU_DRD
+DEFINE VECT_ALU_TEST /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECT_ALU_TEST
+DEFINE VECTOR_ALU_DRD /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_ALU_DRD
+DEFINE VECTOR_ALU_CMOS /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_ALU_CMOS
+DEFINE VECTOR_ALU_CMOS_DIS /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_ALU_CMOS_DIS
+#Removed by ddDeleteObj: DEFINE VECTOR_ALU_DRD_CG /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_ALU_DRD_CG
+DEFINE VECTOR_ALU_DRD_CG_HIER /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_ALU_DRD_CG_HIER
+DEFINE VECTOR_ALU_DRD_CG_FLAT /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_ALU_DRD_CG_FLAT
+DEFINE VECTOR_ALU_DRD_CG_HIER_AND /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_ALU_DRD_CG_HIER_AND
+DEFINE VECTOR_REGFILE_6T /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_REGFILE_6T
+DEFINE VECTOR_CLOCK_DRIVERS /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_CLOCK_DRIVERS
+DEFINE VECTOR_ALU_DRD_CG_HIER_MOD /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_ALU_DRD_CG_HIER_MOD
+#Removed by ddDeleteObj: DEFINE VECTOR_ALU_DRD_CG_HIER_MOD2 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_ALU_DRD_CG_HIER_MOD2
+#Removed by ddDeleteObj: DEFINE VECTOR_ALU_DRD_CG_HIER_MOD2 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_ALU_DRD_CG_HIER_MOD2
+#Removed by ddDeleteObj: DEFINE VECTOR_ALU_DRD_CG_HIER_MOD3 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_ALU_DRD_CG_HIER_MOD3
+#Removed by ddDeleteObj: DEFINE VECTOR_ALU_DRD_CG_HIER_MOD4 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_ALU_DRD_CG_HIER_MOD4
+#Removed by ddDeleteObj: DEFINE VECTOR_ALU_DRD_CG_HIER_MOD2 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_ALU_DRD_CG_HIER_MOD2
+#Removed by ddDeleteObj: DEFINE VECTOR_ALU_DRD_CG_HIER_MOD3 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_ALU_DRD_CG_HIER_MOD3
+#Removed by ddDeleteObj: DEFINE VECTOR_ALU_DRD_CG_HIER_MOD2 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_ALU_DRD_CG_HIER_MOD2
+#Removed by ddDeleteObj: DEFINE VECTOR_ALU_DRD_CG_HIER_MOD2 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_ALU_DRD_CG_HIER_MOD2
+#Removed by ddDeleteObj: DEFINE VECTOR_ALU_DRD_CG_HIER_MOD2 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_ALU_DRD_CG_HIER_MOD2
+#Removed by ddDeleteObj: DEFINE VECTOR_ALU_DRD_CG_HIER_MOD2 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_ALU_DRD_CG_HIER_MOD2
+#Removed by ddDeleteObj: DEFINE VECTOR_ALU_DRD_CG_HIER_MOD3 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_ALU_DRD_CG_HIER_MOD3
+DEFINE VECTOR_ALU_DRD_CG_LOGIC /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_ALU_DRD_CG_LOGIC
+#Removed by ddDeleteObj: DEFINE VECTOR_ALU_DRD_CG_LOGIC_FIX /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_ALU_DRD_CG_LOGIC_FIX
+#Removed by ddDeleteObj: DEFINE VECTOR_ALU_DRD_CG_LOGIC_FIX /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_ALU_DRD_CG_LOGIC_FIX
+#Removed by ddDeleteObj: DEFINE VECTOR_ALU_DRD_CG_LOGIC_FIX /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_ALU_DRD_CG_LOGIC_FIX
+DEFINE VECTOR_ALU_DRD_CG_LOGIC_FIX /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_ALU_DRD_CG_LOGIC_FIX
+DEFINE 65_CPL /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/65_CPL
+DEFINE VECTOR_ALU_DRD_CG_LOGIC_FIX2 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_ALU_DRD_CG_LOGIC_FIX2
+DEFINE VECTOR_ALU_DRD_CG_LOGIC_FIX3 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_ALU_DRD_CG_LOGIC_FIX3
+DEFINE VECTOR_ALU_DRD_CG_LOGIC_FIX4 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_ALU_DRD_CG_LOGIC_FIX4
+DEFINE VECTOR_ALU_CMOS_DIS_SEL /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_ALU_CMOS_DIS_SEL
+DEFINE VECTOR_ALU_CMOS_DIS_SEL_LOGIC_ONLY /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_ALU_CMOS_DIS_SEL_LOGIC_ONLY
+#Removed by ddDeleteObj: DEFINE VECTOR_ALU_DRD_CG_HIER_SEL /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_ALU_DRD_CG_HIER_SEL
+#Removed by ddDeleteObj: DEFINE VECTOR_ALU_DRD_CG_HIER_SEL /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_ALU_DRD_CG_HIER_SEL
+DEFINE VECTOR_ALU_DRD_CG_HIER_SEL /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_ALU_DRD_CG_HIER_SEL
+#Removed by ddDeleteObj: DEFINE VECTOR_ALU_DRD_CG_HIER_SEL_LOGIC /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_ALU_DRD_CG_HIER_SEL_LOGIC
+DEFINE VECTOR_ALU_DRD_CG_HIER_SEL_LOGIC /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_ALU_DRD_CG_HIER_SEL_LOGIC
+DEFINE VECTOR_ALU_DRD_CG_HIER_SEL_MUX /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_ALU_DRD_CG_HIER_SEL_MUX
+DEFINE VECTOR_DRD_MUX /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_DRD_MUX
+DEFINE VECTOR_ALU_DRD_CG_HIER_SEL_MUX_DUMINV /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_ALU_DRD_CG_HIER_SEL_MUX_DUMINV
+DEFINE VECTOR_ALU_DRD_CG_HIER_SEL_LOGIC_DUMINV /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_ALU_DRD_CG_HIER_SEL_LOGIC_DUMINV
+DEFINE VECTOR_ALU_DRD_CG_HIER_SEL_DUMINV /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_ALU_DRD_CG_HIER_SEL_DUMINV
+#Removed by ddDeleteObj: DEFINE VECTOR_ALU_DRD_CG_HIER_SEL_LOGIC_MUX /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_ALU_DRD_CG_HIER_SEL_LOGIC_MUX
+#Removed by ddDeleteObj: DEFINE VECTOR_ALU_DRD_CG_HIER_SEL_LOGIC_MUX /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_ALU_DRD_CG_HIER_SEL_LOGIC_MUX
+#Removed by ddDeleteObj: DEFINE VECTOR_ALU_DRD_CG_HIER_SEL_LOGIC_MUX /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_ALU_DRD_CG_HIER_SEL_LOGIC_MUX
+DEFINE VECTOR_ALU_DRD_CG_HIER_SEL_LOGIC_MUX /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_ALU_DRD_CG_HIER_SEL_LOGIC_MUX
+DEFINE VECTOR_DECODER /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_DECODER
+#Removed by ddDeleteObj: DEFINE VECTOR_ALU_DRD_CG_DECODER /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_ALU_DRD_CG_DECODER
+#Removed by ddDeleteObj: DEFINE VECTOR_ALU_DRD_CG_DECODER /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_ALU_DRD_CG_DECODER
+#Removed by ddDeleteObj: DEFINE VECTOR_ALU_DRD_CG_DECODER /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_ALU_DRD_CG_DECODER
+#Removed by ddDeleteObj: DEFINE VECTOR_ALU_DRD_CG_DECODER /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_ALU_DRD_CG_DECODER
+#Removed by ddDeleteObj: DEFINE VECTOR_ALU_DRD_CG_DECODER /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_ALU_DRD_CG_DECODER
+#Removed by ddDeleteObj: DEFINE VECTOR_ALU_DRD_CG_DECODER /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_ALU_DRD_CG_DECODER
+DEFINE VECTOR_ALU_DRD_CG_DECODER /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_ALU_DRD_CG_DECODER
+#Removed by ddDeleteObj: DEFINE VECTOR_ALU_DRD_CG_DECODER_DUMMY /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_ALU_DRD_CG_DECODER_DUMMY
+#Removed by ddDeleteObj: DEFINE VECTOR_ALU_DRD_CG_HIER_SEL_MUX_DUMMY /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_ALU_DRD_CG_HIER_SEL_MUX_DUMMY
+DEFINE VECTOR_ALU_DRD_CG_HIER_SEL_MUX_DUMDEC /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_ALU_DRD_CG_HIER_SEL_MUX_DUMDEC
+DEFINE VECTOR_ALU_DRD_CG_DECODER_DUMDEC /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_ALU_DRD_CG_DECODER_DUMDEC
+DEFINE VECTOR_ALU_DRD_CG_HIER_SEL_LOGIC_MUX_DUMINV /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_ALU_DRD_CG_HIER_SEL_LOGIC_MUX_DUMINV
+#Removed by ddDeleteObj: DEFINE VECTOR_RF_SR /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_RF_SR
+DEFINE VECTOR_REGFILE_SRL /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_REGFILE_SRL
+#Removed by ddDeleteObj: DEFINE VECTOR_REGFILE_v1 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_REGFILE_v1
+#Removed by ddDeleteObj: DEFINE VECTOR_REGFILE_v1 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_REGFILE_v1
+DEFINE VECTOR_REGFILE_v1 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_REGFILE_v1
+DEFINE VECTOR_REGFILE_STD_v1 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_REGFILE_STD_v1
+DEFINE VECT_REGFILE_LATCH /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECT_REGFILE_LATCH
+#Removed by ddDeleteObj: DEFINE VECTOR_REGFILE_STD_v2 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_REGFILE_STD_v2
+DEFINE VECTOR_REGFILE_STD_v2 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_REGFILE_STD_v2
+#Removed by ddDeleteObj: DEFINE VECTOR_REGFILE_SIRS_OR32 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_REGFILE_SIRS_OR32
+DEFINE VECTOR_REGFILE_RS_EN /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_REGFILE_RS_EN
+#Removed by ddDeleteObj: DEFINE VECTOR_REGFILE_SRIS_OR32 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_REGFILE_SRIS_OR32
+#Removed by ddDeleteObj: DEFINE VECTOR_REGFILE_SRIS_OR32 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_REGFILE_SRIS_OR32
+#Removed by ddDeleteObj: DEFINE VECTOR_REGFILE_SRIS_OR32 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_REGFILE_SRIS_OR32
+#Removed by ddDeleteObj: DEFINE VECTOR_REGFILE_SRIS_OR32 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_REGFILE_SRIS_OR32
+DEFINE VECTOR_REGFILE_SRIS_OR32 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_REGFILE_SRIS_OR32
+DEFINE VECTOR_REGFILE_SRIS_AO32 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_REGFILE_SRIS_AO32
+DEFINE VECTOR_REGFILE_SRIS_AO32_SEDEC /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_REGFILE_SRIS_AO32_SEDEC
+#Removed by ddDeleteObj: DEFINE VECTOR_REGFILE_SRIS_OR32_V2 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_REGFILE_SRIS_OR32_V2
+DEFINE VECTOR_REGFILE_SRIS_OR32_V2 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_REGFILE_SRIS_OR32_V2
+DEFINE VECTOR_REGFILE_SRIS_OR32_V3 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_REGFILE_SRIS_OR32_V3
+DEFINE VECTOR_REGFILE_SRL_AO32_SEDEC /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_REGFILE_SRL_AO32_SEDEC
+DEFINE VECTOR_REGFILE_SRL_OR32_SEDEC /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_REGFILE_SRL_OR32_SEDEC
+DEFINE VECTOR_REGFILE_SRIS_AO32_SEDEC_V2 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_REGFILE_SRIS_AO32_SEDEC_V2
+DEFINE VECTOR_FULLREG_SRIS_SE_AO_V1 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_FULLREG_SRIS_SE_AO_V1
+DEFINE VECTOR_REGFILE_STD_v3 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_REGFILE_STD_v3
+DEFINE VECTOR_FULLREG_STD_V1 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_FULLREG_STD_V1
+DEFINE VECTOR_FULLREG_STD_ALLCELLS /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_FULLREG_STD_ALLCELLS
+DEFINE VECTOR_FULLREG_SRIS_SE_AO_V2 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_FULLREG_SRIS_SE_AO_V2
+DEFINE VECTOR_FULLREG_SRIS_SE_AO_V2_DEC /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_FULLREG_SRIS_SE_AO_V2_DEC
+#Removed by ddDeleteObj: DEFINE VECTOR_FULLREG_SRIS_SE_AO_V3 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_FULLREG_SRIS_SE_AO_V3
+DEFINE VECTOR_FULLREG_SRIS_SE_AO_V3_DEC /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_FULLREG_SRIS_SE_AO_V3_DEC
+DEFINE VECTOR_FULLREG_SRIS_SE_AO_V3 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_FULLREG_SRIS_SE_AO_V3
+DEFINE VECTOR_FULLREG_SRIS_SE_AO_V4_DEC /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_FULLREG_SRIS_SE_AO_V4_DEC
+DEFINE VECTOR_FULLREG_SRIS_SE_AO_V4 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_FULLREG_SRIS_SE_AO_V4
+DEFINE VECTOR_LANES /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_LANES
+DEFINE VECTOR_FULLREG_SRIS_SE_AO_V5 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_FULLREG_SRIS_SE_AO_V5
+DEFINE VECTOR_FULLREG_SRIS_SE_AO_V5REV2 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_FULLREG_SRIS_SE_AO_V5REV2
+DEFINE VECTOR_FULLREG_SRIS_SE_AO_V5REV3 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_FULLREG_SRIS_SE_AO_V5REV3
+DEFINE VECTOR_3R1W_STD_V1 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_3R1W_STD_V1
+DEFINE VECTOR_3R1W_DIFF_V1 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_3R1W_DIFF_V1
+DEFINE VECTOR_FULLREG_STD_V2 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_FULLREG_STD_V2
+DEFINE VECTOR_CORE_CMOS_V1 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_CORE_CMOS_V1
+#Removed by ddDeleteObj: DEFINE VECTOR_CORE_DRD_V1 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_CORE_DRD_V1
+DEFINE VECTOR_CORE_DRD_V1 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_CORE_DRD_V1
+DEFINE VECTOR_CORE_CMOSTOP_DRDLANE /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_CORE_CMOSTOP_DRDLANE
+#Removed by ddDeleteObj: DEFINE VECTOR_CORE_DRD_LANE_V2 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_CORE_DRD_LANE_V2
+DEFINE VECTOR_CORE_DRD_V2 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_CORE_DRD_V2
+DEFINE VECTOR_CORE_DRD_V1_LANEV2 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_CORE_DRD_V1_LANEV2
+DEFINE VECTOR_CORE_DRD_LANE_V2 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_CORE_DRD_LANE_V2
+DEFINE VECTOR_CORE_DRD_V2_DECODER /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_CORE_DRD_V2_DECODER
+DEFINE VECTOR_CORE_DRD_V2_VRF_DEC /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_CORE_DRD_V2_VRF_DEC
+DEFINE VECTOR_CORE_DRD_V3_VRF_DEC /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_CORE_DRD_V3_VRF_DEC
+DEFINE VECTOR_CORE_CMOS_LANE_V2 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VECTOR_CORE_CMOS_LANE_V2
+DEFINE tphn65lpnv2od3_sl /technology/TSMC_65nm_MS_RF_LP_1.2_2.5V_full/IO/TSMCHOME/digital/Back_End/cdk_oa/tphn65lpnv2od3_sl_200b/mt_2/9lm/tphn65lpnv2od3_sl/
+DEFINE PEX_SYN_MUL_3x3 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/PEX_SYN_MUL_3x3
+#Removed by ddDeleteObj: DEFINE PEX_SYN_MUL_3x3_V2 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/PEX_SYN_MUL_3x3_V2
+#Removed by ddDeleteObj: DEFINE PEX_SYN_MUL_3x3_V3 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/PEX_SYN_MUL_3x3_V3
+#Removed by ddDeleteObj: DEFINE PEX_SYN_MUL_3x3_V4 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/PEX_SYN_MUL_3x3_V4
+#Removed by ddDeleteObj: DEFINE PEX_SYN_MUL_3x3_V4 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/PEX_SYN_MUL_3x3_V4
+#Removed by ddDeleteObj: DEFINE PEX_SYN_MUL_3x3_V5 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/PEX_SYN_MUL_3x3_V5
+#Removed by ddDeleteObj: DEFINE PEX_SYN_MUL_3x3_V5 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/PEX_SYN_MUL_3x3_V5
+#Removed by ddDeleteObj: DEFINE PEX_SYN_MUL_3x3_V5 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/PEX_SYN_MUL_3x3_V5
+#Removed by ddDeleteObj: DEFINE PEX_SYN_MUL_3x3_V5 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/PEX_SYN_MUL_3x3_V5
+#Removed by ddDeleteObj: DEFINE PEX_SYN_MUL_3x3_V6 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/PEX_SYN_MUL_3x3_V6
+DEFINE PEX_SYN_MUL_3x3_V6 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/PEX_SYN_MUL_3x3_V6
+#Removed by ddDeleteObj: DEFINE PEX_SYN_MUL_3x3_V7 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/PEX_SYN_MUL_3x3_V7
+#Removed by ddDeleteObj: DEFINE PEX_SYN_MUL_3x3_V7 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/PEX_SYN_MUL_3x3_V7
+#Removed by ddDeleteObj: DEFINE PEX_SYN_MUL_3x3_V7 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/PEX_SYN_MUL_3x3_V7
+#Removed by ddDeleteObj: DEFINE PEX_SYN_MUL_3x3_V7 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/PEX_SYN_MUL_3x3_V7
+#Removed by ddDeleteObj: DEFINE PEX_SYN_MUL_3x3_V7 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/PEX_SYN_MUL_3x3_V7
+#Removed by ddDeleteObj: DEFINE PEX_SYN_MUL_3x3_V7 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/PEX_SYN_MUL_3x3_V7
+#Removed by ddDeleteObj: DEFINE PEX_SYN_MUL_3x3_V7 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/PEX_SYN_MUL_3x3_V7
+#Removed by ddDeleteObj: DEFINE PEX_SYN_MUL_3x3_V7 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/PEX_SYN_MUL_3x3_V7
+#Removed by ddDeleteObj: DEFINE PEX_SYN_MUL_3x3_V7 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/PEX_SYN_MUL_3x3_V7
+#Removed by ddDeleteObj: DEFINE PEX_SYN_MUL_3x3_V7 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/PEX_SYN_MUL_3x3_V7
+#Removed by ddDeleteObj: DEFINE PEX_SYN_MUL_3x3_V7 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/PEX_SYN_MUL_3x3_V7
+#Removed by ddDeleteObj: DEFINE PEX_SYN_MUL_3x3_V7 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/PEX_SYN_MUL_3x3_V7
+#Removed by ddDeleteObj: DEFINE PEX_SYN_MUL_3x3_V7 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/PEX_SYN_MUL_3x3_V7
+DEFINE PEX_SYN_MUL_SYN /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/PEX_SYN_MUL_SYN
+DEFINE PEX_SYN_MUL_PNR /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/PEX_SYN_MUL_PNR
+DEFINE PEX_SYN_MUL_3x3_V7 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/PEX_SYN_MUL_3x3_V7
+#Removed by ddDeleteObj: DEFINE PEX_LANE /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/PEX_LANE
+#Removed by ddDeleteObj: DEFINE PEX_LANE_DRD /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/PEX_LANE_DRD
+DEFINE PEX_LANE_DRD /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/PEX_LANE_DRD
+DEFINE PEX_LANE_CMOS /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/PEX_LANE_CMOS
+#Removed by ddDeleteObj: DEFINE PEX_SYN_MUL_CMOS /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/PEX_SYN_MUL_CMOS
+DEFINE PEX_SYN_MUL_CMOS_PEX /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/PEX_SYN_MUL_CMOS_PEX
+DEFINE PEX_SYN_MUL_CMOS_PNR /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/PEX_SYN_MUL_CMOS_PNR
+DEFINE PEX_SYN_MUL_CMOS_RCC /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/PEX_SYN_MUL_CMOS_RCC
+DEFINE PEX_SYN_MUL_3x3_RCC /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/PEX_SYN_MUL_3x3_RCC
+DEFINE CHAR_CELLS /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/CHAR_CELLS
+DEFINE PEX_SYN_MUL_DRD_MESH_V1 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/PEX_SYN_MUL_DRD_MESH_V1
+DEFINE PEX_SYN_MUL_DRD_MESH_V1_RCC /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/PEX_SYN_MUL_DRD_MESH_V1_RCC
+#Removed by ddDeleteObj: DEFINE PEX_LANE_DRD_V2 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/PEX_LANE_DRD_V2
+#Removed by ddDeleteObj: DEFINE PEX_LANE_DRD_V2 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/PEX_LANE_DRD_V2
+DEFINE PEX_LANE_DRD_V2 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/PEX_LANE_DRD_V2
+DEFINE PEX_SYN_MUL_DRD_MESH_V1_DSPF /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/PEX_SYN_MUL_DRD_MESH_V1_DSPF
+#Removed by ddDeleteObj: DEFINE PEX_LANE_CMOS_V2 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/PEX_LANE_CMOS_V2
+DEFINE PEX_LANE_CMOS_V2 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/PEX_LANE_CMOS_V2
+DEFINE PEX_VECTOR_CORE_DRD_V2 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/PEX_VECTOR_CORE_DRD_V2
+DEFINE PEX_VECTOR_CORE_CMOS_V1 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/PEX_VECTOR_CORE_CMOS_V1
+DEFINE PEX_LANE_CMOS_V2_RCC /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/PEX_LANE_CMOS_V2_RCC
+DEFINE PEX_LANE_DRD_V2_RCC /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/PEX_LANE_DRD_V2_RCC
+DEFINE PEX_VECTOR_CORE_CMOS_V1_RCC /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/PEX_VECTOR_CORE_CMOS_V1_RCC
+DEFINE PEX_VECTOR_CORE_DRD_V2_RCC /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/PEX_VECTOR_CORE_DRD_V2_RCC
+DEFINE VS_SC_Ladder /home/hotwater/Voltage_Stacking/PipelinedCore/Design/SIGNOFF/VS_SC_Ladder
+#Removed by ddDeleteObj: DEFINE #24DEST_LIB /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/#24DEST_LIB
+#Removed by ddDeleteObj: DEFINE add_int8_DIFF /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/add_int8_DIFF
+#Removed by ddDeleteObj: DEFINE add_bfloat16_DIFF /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/add_bfloat16_DIFF
+#Removed by ddDeleteObj: DEFINE add_float32_DIFF /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/add_float32_DIFF
+#Removed by ddDeleteObj: DEFINE mac_int8_DIFF /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/mac_int8_DIFF
+#Removed by ddDeleteObj: DEFINE mac_bfloat16_DIFF /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/mac_bfloat16_DIFF
+#Removed by ddDeleteObj: DEFINE mac_float32_DIFF /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/mac_float32_DIFF
+#Removed by ddDeleteObj: DEFINE mul_int8_DIFF /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/mul_int8_DIFF
+#Removed by ddDeleteObj: DEFINE mul_bfloat16_DIFF /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/mul_bfloat16_DIFF
+#Removed by ddDeleteObj: DEFINE mul_float32_DIFF /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/mul_float32_DIFF
+DEFINE add_int8_DIFF /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/add_int8_DIFF
+#Removed by ddDeleteObj: DEFINE add_bfloat16_DIFF /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/add_bfloat16_DIFF
+#Removed by ddDeleteObj: DEFINE add_float32_DIFF /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/add_float32_DIFF
+#Removed by ddDeleteObj: DEFINE mac_int8_DIFF /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/mac_int8_DIFF
+#Removed by ddDeleteObj: DEFINE mac_bfloat16_DIFF /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/mac_bfloat16_DIFF
+#Removed by ddDeleteObj: DEFINE mac_float32_DIFF /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/mac_float32_DIFF
+#Removed by ddDeleteObj: DEFINE mul_int8_DIFF /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/mul_int8_DIFF
+#Removed by ddDeleteObj: DEFINE mul_bfloat16_DIFF /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/mul_bfloat16_DIFF
+#Removed by ddDeleteObj: DEFINE mul_float32_DIFF /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/mul_float32_DIFF
+DEFINE DIFF_add_int8 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/DIFF_add_int8
+DEFINE DIFF_add_bfloat16 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/DIFF_add_bfloat16
+DEFINE DIFF_add_float32 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/DIFF_add_float32
+DEFINE DIFF_mac_int8 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/DIFF_mac_int8
+DEFINE DIFF_mac_bfloat16 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/DIFF_mac_bfloat16
+DEFINE DIFF_mac_float32 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/DIFF_mac_float32
+DEFINE DIFF_mul_int8 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/DIFF_mul_int8
+DEFINE DIFF_mul_bfloat16 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/DIFF_mul_bfloat16
+DEFINE DIFF_mul_float32 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/DIFF_mul_float32
+DEFINE ALUs_TB /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/ALUs_TB
+DEFINE CMOS_add_int8 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/CMOS_add_int8
+DEFINE CMOS_add_bfloat16 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/CMOS_add_bfloat16
+DEFINE CMOS_add_float32 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/CMOS_add_float32
+DEFINE CMOS_mac_int8 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/CMOS_mac_int8
+DEFINE CMOS_mac_bfloat16 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/CMOS_mac_bfloat16
+DEFINE CMOS_mac_float32 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/CMOS_mac_float32
+DEFINE CMOS_mul_int8 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/CMOS_mul_int8
+DEFINE CMOS_mul_bfloat16 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/CMOS_mul_bfloat16
+DEFINE CMOS_mul_float32 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/CMOS_mul_float32
+#Removed by ddDeleteObj: DEFINE DIFF_add_double64 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/DIFF_add_double64
+#Removed by ddDeleteObj: DEFINE DIFF_mul_double64 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/DIFF_mul_double64
+#Removed by ddDeleteObj: DEFINE DIFF_mac_double64 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/DIFF_mac_double64
+#Removed by ddDeleteObj: DEFINE CMOS_add_double64 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/CMOS_add_double64
+#Removed by ddDeleteObj: DEFINE CMOS_mul_double64 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/CMOS_mul_double64
+#Removed by ddDeleteObj: DEFINE CMOS_mac_double64 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/CMOS_mac_double64
+#Removed by ddDeleteObj: DEFINE CMOS_mac_double64_2 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/CMOS_mac_double64_2
+DEFINE CMOS_add_double64 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/CMOS_add_double64
+DEFINE CMOS_mul_double64 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/CMOS_mul_double64
+DEFINE CMOS_mac_double64 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/CMOS_mac_double64
+DEFINE DIFF_add_double64 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/DIFF_add_double64
+DEFINE DIFF_mul_double64 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/DIFF_mul_double64
+DEFINE DIFF_mac_double64 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/DIFF_mac_double64
+DEFINE CMOS_add_float32_V2 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/CMOS_add_float32_V2
+#Removed by ddDeleteObj: DEFINE CMOS_mul_float32_V2 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/CMOS_mul_float32_V2
+DEFINE CMOS_mac_float32_V2 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/CMOS_mac_float32_V2
+DEFINE DIFF_add_float32_V2 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/DIFF_add_float32_V2
+DEFINE DIFF_mul_float32_V2 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/DIFF_mul_float32_V2
+#Removed by ddDeleteObj: DEFINE DIFF_mac_float32_V2 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/DIFF_mac_float32_V2
+DEFINE DIFF_add_float32_V2 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/DIFF_add_float32_V2
+DEFINE DIFF_mac_float32_V2 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/DIFF_mac_float32_V2
+DEFINE CMOS_mul_float32_V2 /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/cadence/CMOS_mul_float32_V2

@@ -1,0 +1,9 @@
+
+  Linking design 'mul_bfloat16'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  mul_bfloat16                /home/hotwater/Voltage_Stacking/PipelinedCore/Design/ALUs/syn/mul_bfloat16.db
+  tcbn65lptc (library)        /technology/TSMC_65nm_MS_RF_LP_1.2_2.5V_full/STD/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn65lp_220a/tcbn65lptc.db
+  dw_foundation.sldb (library) /tools/Synopsys/DC/U-2022.12-SP7-3/libraries/syn/dw_foundation.sldb
+
+1

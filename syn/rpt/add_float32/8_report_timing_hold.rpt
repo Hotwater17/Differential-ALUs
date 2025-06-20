@@ -1,0 +1,1069 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -nworst 50
+        -max_paths 50
+Design : add_float32
+Version: U-2022.12-SP7-3
+Date   : Thu Apr 10 19:45:51 2025
+****************************************
+
+Operating Conditions: NCCOM   Library: tcbn65lptc
+Wire Load Model Mode: segmented
+
+  Startpoint: rnd[1] (input port)
+  Endpoint: o[31] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  add_float32        ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  rnd[1] (in)                              0.00       0.00 f
+  U1078/ZN (ND4D0)                         0.06       0.06 r
+  U1079/ZN (OAI22D0)                       0.04       0.09 f
+  o[31] (out)                              0.00       0.09 f
+  data arrival time                                   0.09
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: rnd[1] (input port)
+  Endpoint: o[31] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  add_float32        ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  rnd[1] (in)                              0.00       0.00 f
+  U1078/ZN (ND4D0)                         0.06       0.06 r
+  U1079/ZN (OAI22D0)                       0.04       0.10 f
+  o[31] (out)                              0.00       0.10 f
+  data arrival time                                   0.10
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: rnd[0] (input port)
+  Endpoint: o[31] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  add_float32        ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  rnd[0] (in)                              0.00       0.00 f
+  U1078/ZN (ND4D0)                         0.07       0.07 r
+  U1079/ZN (OAI22D0)                       0.04       0.10 f
+  o[31] (out)                              0.00       0.10 f
+  data arrival time                                   0.10
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: rnd[1] (input port)
+  Endpoint: o[31] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  add_float32        ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  rnd[1] (in)                              0.00       0.00 f
+  U1078/ZN (ND4D0)                         0.06       0.06 r
+  U1079/ZN (OAI22D0)                       0.04       0.10 f
+  o[31] (out)                              0.00       0.10 f
+  data arrival time                                   0.10
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: rnd[0] (input port)
+  Endpoint: o[31] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  add_float32        ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  rnd[0] (in)                              0.00       0.00 f
+  U1078/ZN (ND4D0)                         0.07       0.07 r
+  U1079/ZN (OAI22D0)                       0.04       0.10 f
+  o[31] (out)                              0.00       0.10 f
+  data arrival time                                   0.10
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: rnd[0] (input port)
+  Endpoint: o[31] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  add_float32        ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  rnd[0] (in)                              0.00       0.00 f
+  U1078/ZN (ND4D0)                         0.07       0.07 r
+  U1079/ZN (OAI22D0)                       0.04       0.11 f
+  o[31] (out)                              0.00       0.11 f
+  data arrival time                                   0.11
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: rnd[2] (input port)
+  Endpoint: o[31] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  add_float32        ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  rnd[2] (in)                              0.00       0.00 r
+  U1077/ZN (INVD0)                         0.04       0.04 f
+  U1078/ZN (ND4D0)                         0.04       0.07 r
+  U1079/ZN (OAI22D0)                       0.04       0.11 f
+  o[31] (out)                              0.00       0.11 f
+  data arrival time                                   0.11
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: rnd[2] (input port)
+  Endpoint: o[31] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  add_float32        ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  rnd[2] (in)                              0.00       0.00 r
+  U1077/ZN (INVD0)                         0.04       0.04 f
+  U1078/ZN (ND4D0)                         0.04       0.07 r
+  U1079/ZN (OAI22D0)                       0.04       0.11 f
+  o[31] (out)                              0.00       0.11 f
+  data arrival time                                   0.11
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: rnd[2] (input port)
+  Endpoint: o[31] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  add_float32        ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  rnd[2] (in)                              0.00       0.00 r
+  U1077/ZN (INVD0)                         0.04       0.04 f
+  U1078/ZN (ND4D0)                         0.04       0.07 r
+  U1079/ZN (OAI22D0)                       0.04       0.12 f
+  o[31] (out)                              0.00       0.12 f
+  data arrival time                                   0.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: o[31] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  add_float32        ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  b[31] (in)                               0.00       0.00 r
+  U562/ZN (AOI22D0)                        0.07       0.07 f
+  U1079/ZN (OAI22D0)                       0.05       0.12 r
+  o[31] (out)                              0.00       0.12 r
+  data arrival time                                   0.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: o[31] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  add_float32        ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  b[31] (in)                               0.00       0.00 r
+  U562/ZN (AOI22D0)                        0.07       0.07 f
+  U1079/ZN (OAI22D0)                       0.05       0.12 r
+  o[31] (out)                              0.00       0.12 r
+  data arrival time                                   0.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: o[31] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  add_float32        ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  b[31] (in)                               0.00       0.00 r
+  U562/ZN (AOI22D0)                        0.07       0.07 f
+  U1079/ZN (OAI22D0)                       0.05       0.12 r
+  o[31] (out)                              0.00       0.12 r
+  data arrival time                                   0.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: o[31] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  add_float32        ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  b[31] (in)                               0.00       0.00 f
+  U562/ZN (AOI22D0)                        0.09       0.09 r
+  U1079/ZN (OAI22D0)                       0.03       0.12 f
+  o[31] (out)                              0.00       0.12 f
+  data arrival time                                   0.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: o[31] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  add_float32        ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  b[31] (in)                               0.00       0.00 r
+  U562/ZN (AOI22D0)                        0.07       0.07 f
+  U1079/ZN (OAI22D0)                       0.05       0.12 r
+  o[31] (out)                              0.00       0.12 r
+  data arrival time                                   0.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: o[31] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  add_float32        ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  b[31] (in)                               0.00       0.00 r
+  U562/ZN (AOI22D0)                        0.08       0.08 f
+  U1079/ZN (OAI22D0)                       0.05       0.12 r
+  o[31] (out)                              0.00       0.12 r
+  data arrival time                                   0.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: o[31] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  add_float32        ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  b[31] (in)                               0.00       0.00 r
+  U562/ZN (AOI22D0)                        0.07       0.07 f
+  U1079/ZN (OAI22D0)                       0.05       0.12 r
+  o[31] (out)                              0.00       0.12 r
+  data arrival time                                   0.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: o[31] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  add_float32        ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  b[31] (in)                               0.00       0.00 r
+  U562/ZN (AOI22D0)                        0.07       0.07 f
+  U1079/ZN (OAI22D0)                       0.05       0.12 r
+  o[31] (out)                              0.00       0.12 r
+  data arrival time                                   0.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: o[31] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  add_float32        ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  b[31] (in)                               0.00       0.00 r
+  U562/ZN (AOI22D0)                        0.08       0.08 f
+  U1079/ZN (OAI22D0)                       0.05       0.12 r
+  o[31] (out)                              0.00       0.12 r
+  data arrival time                                   0.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: o[31] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  add_float32        ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  b[31] (in)                               0.00       0.00 r
+  U562/ZN (AOI22D0)                        0.08       0.08 f
+  U1079/ZN (OAI22D0)                       0.05       0.12 r
+  o[31] (out)                              0.00       0.12 r
+  data arrival time                                   0.12
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: o[31] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  add_float32        ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  b[31] (in)                               0.00       0.00 f
+  U562/ZN (AOI22D0)                        0.09       0.09 r
+  U1079/ZN (OAI22D0)                       0.04       0.13 f
+  o[31] (out)                              0.00       0.13 f
+  data arrival time                                   0.13
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: o[31] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  add_float32        ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  b[31] (in)                               0.00       0.00 f
+  U562/ZN (AOI22D0)                        0.09       0.09 r
+  U1079/ZN (OAI22D0)                       0.04       0.13 f
+  o[31] (out)                              0.00       0.13 f
+  data arrival time                                   0.13
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[31] (input port)
+  Endpoint: o[31] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  add_float32        ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  a[31] (in)                               0.00       0.00 r
+  U562/ZN (AOI22D0)                        0.08       0.08 f
+  U1079/ZN (OAI22D0)                       0.05       0.13 r
+  o[31] (out)                              0.00       0.13 r
+  data arrival time                                   0.13
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[31] (input port)
+  Endpoint: o[31] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  add_float32        ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  a[31] (in)                               0.00       0.00 r
+  U562/ZN (AOI22D0)                        0.08       0.08 f
+  U1079/ZN (OAI22D0)                       0.05       0.13 r
+  o[31] (out)                              0.00       0.13 r
+  data arrival time                                   0.13
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[31] (input port)
+  Endpoint: o[31] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  add_float32        ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  a[31] (in)                               0.00       0.00 r
+  U562/ZN (AOI22D0)                        0.09       0.09 f
+  U1079/ZN (OAI22D0)                       0.05       0.13 r
+  o[31] (out)                              0.00       0.13 r
+  data arrival time                                   0.13
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[31] (input port)
+  Endpoint: o[31] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  add_float32        ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  a[31] (in)                               0.00       0.00 r
+  U562/ZN (AOI22D0)                        0.08       0.08 f
+  U1079/ZN (OAI22D0)                       0.05       0.13 r
+  o[31] (out)                              0.00       0.13 r
+  data arrival time                                   0.13
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[31] (input port)
+  Endpoint: o[31] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  add_float32        ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  a[31] (in)                               0.00       0.00 r
+  U562/ZN (AOI22D0)                        0.09       0.09 f
+  U1079/ZN (OAI22D0)                       0.05       0.13 r
+  o[31] (out)                              0.00       0.13 r
+  data arrival time                                   0.13
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[31] (input port)
+  Endpoint: o[31] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  add_float32        ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  a[31] (in)                               0.00       0.00 r
+  U562/ZN (AOI22D0)                        0.09       0.09 f
+  U1079/ZN (OAI22D0)                       0.05       0.13 r
+  o[31] (out)                              0.00       0.13 r
+  data arrival time                                   0.13
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[31] (input port)
+  Endpoint: o[31] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  add_float32        ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  a[31] (in)                               0.00       0.00 r
+  U562/ZN (AOI22D0)                        0.09       0.09 f
+  U1079/ZN (OAI22D0)                       0.05       0.13 r
+  o[31] (out)                              0.00       0.13 r
+  data arrival time                                   0.13
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[31] (input port)
+  Endpoint: o[31] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  add_float32        ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  a[31] (in)                               0.00       0.00 r
+  U562/ZN (AOI22D0)                        0.09       0.09 f
+  U1079/ZN (OAI22D0)                       0.05       0.14 r
+  o[31] (out)                              0.00       0.14 r
+  data arrival time                                   0.14
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[31] (input port)
+  Endpoint: o[31] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  add_float32        ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  a[31] (in)                               0.00       0.00 r
+  U562/ZN (AOI22D0)                        0.09       0.09 f
+  U1079/ZN (OAI22D0)                       0.05       0.14 r
+  o[31] (out)                              0.00       0.14 r
+  data arrival time                                   0.14
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[31] (input port)
+  Endpoint: o[31] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  add_float32        ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  a[31] (in)                               0.00       0.00 f
+  U562/ZN (AOI22D0)                        0.10       0.10 r
+  U1079/ZN (OAI22D0)                       0.03       0.14 f
+  o[31] (out)                              0.00       0.14 f
+  data arrival time                                   0.14
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: o[31] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  add_float32        ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  b[31] (in)                               0.00       0.00 f
+  U562/ZN (AOI22D0)                        0.10       0.10 r
+  U1079/ZN (OAI22D0)                       0.03       0.14 f
+  o[31] (out)                              0.00       0.14 f
+  data arrival time                                   0.14
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[31] (input port)
+  Endpoint: o[31] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  add_float32        ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  a[31] (in)                               0.00       0.00 f
+  U562/ZN (AOI22D0)                        0.10       0.10 r
+  U1079/ZN (OAI22D0)                       0.04       0.14 f
+  o[31] (out)                              0.00       0.14 f
+  data arrival time                                   0.14
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: o[31] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  add_float32        ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  b[31] (in)                               0.00       0.00 f
+  U562/ZN (AOI22D0)                        0.10       0.10 r
+  U1079/ZN (OAI22D0)                       0.04       0.14 f
+  o[31] (out)                              0.00       0.14 f
+  data arrival time                                   0.14
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: o[31] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  add_float32        ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  b[31] (in)                               0.00       0.00 f
+  U562/ZN (AOI22D0)                        0.11       0.11 r
+  U1079/ZN (OAI22D0)                       0.03       0.14 f
+  o[31] (out)                              0.00       0.14 f
+  data arrival time                                   0.14
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[31] (input port)
+  Endpoint: o[31] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  add_float32        ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  a[31] (in)                               0.00       0.00 f
+  U562/ZN (AOI22D0)                        0.10       0.10 r
+  U1079/ZN (OAI22D0)                       0.04       0.14 f
+  o[31] (out)                              0.00       0.14 f
+  data arrival time                                   0.14
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: o[31] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  add_float32        ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  b[31] (in)                               0.00       0.00 f
+  U562/ZN (AOI22D0)                        0.10       0.10 r
+  U1079/ZN (OAI22D0)                       0.04       0.15 f
+  o[31] (out)                              0.00       0.15 f
+  data arrival time                                   0.15
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: o[31] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  add_float32        ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  b[31] (in)                               0.00       0.00 f
+  U562/ZN (AOI22D0)                        0.11       0.11 r
+  U1079/ZN (OAI22D0)                       0.04       0.15 f
+  o[31] (out)                              0.00       0.15 f
+  data arrival time                                   0.15
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[31] (input port)
+  Endpoint: o[31] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  add_float32        ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  a[31] (in)                               0.00       0.00 f
+  U562/ZN (AOI22D0)                        0.11       0.11 r
+  U1079/ZN (OAI22D0)                       0.03       0.15 f
+  o[31] (out)                              0.00       0.15 f
+  data arrival time                                   0.15
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: rnd[1] (input port)
+  Endpoint: o[31] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  add_float32        ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  rnd[1] (in)                              0.00       0.00 r
+  U1078/ZN (ND4D0)                         0.08       0.08 f
+  U1079/ZN (OAI22D0)                       0.06       0.15 r
+  o[31] (out)                              0.00       0.15 r
+  data arrival time                                   0.15
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: rnd[1] (input port)
+  Endpoint: o[31] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  add_float32        ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  rnd[1] (in)                              0.00       0.00 r
+  U1078/ZN (ND4D0)                         0.08       0.08 f
+  U1079/ZN (OAI22D0)                       0.06       0.15 r
+  o[31] (out)                              0.00       0.15 r
+  data arrival time                                   0.15
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[30] (input port)
+  Endpoint: o[30] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  add_float32        ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  a[30] (in)                               0.00       0.00 r
+  U10/Z (OR2D0)                            0.09       0.09 r
+  U1073/Z (AO21D0)                         0.06       0.15 r
+  o[30] (out)                              0.00       0.15 r
+  data arrival time                                   0.15
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[31] (input port)
+  Endpoint: o[31] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  add_float32        ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  a[31] (in)                               0.00       0.00 f
+  U562/ZN (AOI22D0)                        0.11       0.11 r
+  U1079/ZN (OAI22D0)                       0.04       0.15 f
+  o[31] (out)                              0.00       0.15 f
+  data arrival time                                   0.15
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: rnd[1] (input port)
+  Endpoint: o[31] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  add_float32        ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  rnd[1] (in)                              0.00       0.00 r
+  U1078/ZN (ND4D0)                         0.08       0.08 f
+  U1079/ZN (OAI22D0)                       0.07       0.15 r
+  o[31] (out)                              0.00       0.15 r
+  data arrival time                                   0.15
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[31] (input port)
+  Endpoint: o[31] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  add_float32        ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  b[31] (in)                               0.00       0.00 f
+  U562/ZN (AOI22D0)                        0.11       0.11 r
+  U1079/ZN (OAI22D0)                       0.04       0.15 f
+  o[31] (out)                              0.00       0.15 f
+  data arrival time                                   0.15
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: rnd[0] (input port)
+  Endpoint: o[31] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  add_float32        ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  rnd[0] (in)                              0.00       0.00 r
+  U1078/ZN (ND4D0)                         0.09       0.09 f
+  U1079/ZN (OAI22D0)                       0.06       0.15 r
+  o[31] (out)                              0.00       0.15 r
+  data arrival time                                   0.15
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: rnd[0] (input port)
+  Endpoint: o[31] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  add_float32        ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  rnd[0] (in)                              0.00       0.00 r
+  U1078/ZN (ND4D0)                         0.09       0.09 f
+  U1079/ZN (OAI22D0)                       0.06       0.15 r
+  o[31] (out)                              0.00       0.15 r
+  data arrival time                                   0.15
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[31] (input port)
+  Endpoint: o[31] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  add_float32        ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  a[31] (in)                               0.00       0.00 f
+  U562/ZN (AOI22D0)                        0.12       0.12 r
+  U1079/ZN (OAI22D0)                       0.03       0.15 f
+  o[31] (out)                              0.00       0.15 f
+  data arrival time                                   0.15
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: rnd[0] (input port)
+  Endpoint: o[31] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  add_float32        ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  rnd[0] (in)                              0.00       0.00 r
+  U1078/ZN (ND4D0)                         0.09       0.09 f
+  U1079/ZN (OAI22D0)                       0.07       0.15 r
+  o[31] (out)                              0.00       0.15 r
+  data arrival time                                   0.15
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[30] (input port)
+  Endpoint: o[30] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  add_float32        ZeroWireload          tcbn65lptc
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  b[30] (in)                               0.00       0.00 r
+  U10/Z (OR2D0)                            0.09       0.09 r
+  U1073/Z (AO21D0)                         0.06       0.15 r
+  o[30] (out)                              0.00       0.15 r
+  data arrival time                                   0.15
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

@@ -1,0 +1,32 @@
+Information: Checking out the license 'DesignWare'. (SEC-104)
+Information: Changed wire load model for 'DW01_add_width8' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Changed wire load model for '*ADD_UNS_OP_8_8_8' from '(none)' to 'ZeroWireload'. (OPT-170)
+Information: Updating design information... (UID-85)
+
+Information: Checking generated_clocks...
+
+Information: Checking loops...
+
+Information: Checking no_input_delay...
+
+Information: Checking unconstrained_endpoints...
+
+Warning: The following end-points are not constrained for maximum delay.
+
+End point
+---------------
+o[0]
+o[1]
+o[2]
+o[3]
+o[4]
+o[5]
+o[6]
+o[7]
+
+Information: Checking pulse_clock_cell_type...
+
+Information: Checking no_driving_cell...
+
+Information: Checking partial_input_delay...
+1
